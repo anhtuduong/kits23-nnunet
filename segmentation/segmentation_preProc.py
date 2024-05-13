@@ -1,17 +1,21 @@
 
 import matplotlib.pyplot as plt
 import random
+# SimpleITK: Simplified, open-source to Insight Toolkit(ITK) image analysis toolkit
 import SimpleITK as sitk
-import os
+# os = operating system
+import os 
 from scipy import ndimage
 from scipy.ndimage import binary_opening, generate_binary_structure
 import time
-import numpy as np
+# numpy deal with arrays
+import numpy as np 
 from importlib import reload
 #import debug_helpers as db
 import json
 import cv2
 from datetime import datetime
+# shutil helps in automating process of copying and removal of files and directories
 import shutil
 from scipy.optimize import curve_fit
 from scipy.stats import norm
@@ -111,6 +115,12 @@ def resample_image(image, new_spacing=[1.0, 1.0, 1.0]):
 class KidneyDatasetPreprocessor:
     class KidneyCasePreprocessor:
         def __init__(self, case_path, dataset_preprocessor):
+            """
+            Constructor of class KidneyCasePreprocessor:
+            Args:
+                case_path (str): path of cases (usually see as os.path.join() to join the many path strings into 1 string)
+                dataset_preprocessor (TODO)
+            """
             self.case_path = os.path.join(case_path)
             self.dataset_preprocessor = dataset_preprocessor
 
@@ -131,7 +141,7 @@ class KidneyDatasetPreprocessor:
             normalized_image = np.zeros((*self.image_resampled_xyz.shape, 3), dtype=np.float32)
 
             # Specify the labels of interest (skipping the background)
-            labels_of_interest = [1, 2, 3]
+            labels_of_interest = [1, 2, 3] #(TODO)
 
             for i, label in enumerate(labels_of_interest):
                 params = self.dataset_preprocessor.gaussian_fits[label]
@@ -178,17 +188,29 @@ class KidneyDatasetPreprocessor:
             np.save(os.path.join(output_folder, 'cropped_image.npy'), self.cropped_image)
             np.save(os.path.join(output_folder, 'cropped_segmentation.npy'), self.cropped_segmentation)
  
-    def __init__(self, source_folder, hist_path):
+    def __init__(self, source_folder, hist_path): 
+        """
+        Constructor of class KidneyDatasetPreprocessor
+        Args:
+            source_folder (str): path to the source data folder that will be used in the preprocess
+            hist_path (str): path to the histogram data file
+        """
+
         self.source_folder = source_folder
         self.hist_path = hist_path
+        
         # Load histogram data
-        self.histograms = np.load(self.hist_path, allow_pickle=True).item()
+        # (pickling: serialize convert obj to binary/bytes);
+        # (.item(): to get the value of a key in a dict = to convert a loaded Numpy array back to its original obj form)                                                                   
+        self.histograms = np.load(self.hist_path, allow_pickle=True).item() 
+        
         self.bin_edges = np.arange(-1000, 2001)  # Fixed bin edges
         self.gaussian_fits = {}
         self.date_str = datetime.now().strftime("%Y_%m_%d")
         self.compute_gaussian_fits()
 
-    def compute_gaussian_fits(self):
+    # to estimate Gaussian distribution parameters from self.histograms
+    def compute_gaussian_fits(self): 
         # Calculate bin centers as the midpoints of bin_edges for fitting
         bin_centers = (self.bin_edges[:-1] + self.bin_edges[1:]) / 2
         
@@ -212,6 +234,7 @@ class KidneyDatasetPreprocessor:
         processed_cases = 0
 
         # Iterate over each subfolder in the source folder
+        # If the item in the source folder is not a subfolder (not a case folder), it continues to the next iteration.
         for case_folder in os.listdir(self.source_folder):
             case_path = os.path.join(self.source_folder, case_folder)
             if not os.path.isdir(case_path):
@@ -240,7 +263,7 @@ class KidneyDatasetPreprocessor:
         casePreproc.save_data()
 
         # Save slices as images for a few cases
-        if processed_cases <= 4:  # Considering 0-based indexing
+        if processed_cases <= 4:  # Considering 0-based indexing (TODO)
             self.save_slices_as_images(casePreproc)
 
     def save_slices_as_images(self, casePreproc):
@@ -257,9 +280,9 @@ class KidneyDatasetPreprocessor:
             # Save segmentation slice
             plt.imsave(os.path.join(output_folder, f"seg_slice_{i:03d}.png"), casePreproc.cropped_segmentation[:, :, i])
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     # Path to your dataset
-    dataset_path = 'C:\\Data\\2023_09_KidneyCancer\\kits23-main\\dataset'
+    dataset_path = 'C:\\Data\\2023_09_KidneyCancer\\kits23-main\\dataset' 
     hist_path = 'C:\\Code\\2023_09_KC\\local\\hists\\histogram_counts.npy'
 
     # Create an instance of the preprocessor
