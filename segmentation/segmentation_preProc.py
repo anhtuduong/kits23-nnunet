@@ -140,8 +140,9 @@ class KidneyDatasetPreprocessor:
             # and dtype float to accommodate [0, 1] range at 16-bit precision
             normalized_image = np.zeros((*self.image_resampled_xyz.shape, 3), dtype=np.float32)
 
-            # Specify the labels of interest (skipping the background)
-            labels_of_interest = [1, 2, 3] #(TODO)
+            # Specify the labels of interest (skipping the background) 
+            #(0 = background), (1: kidney), (2: tumor), (3: cyst)
+            labels_of_interest = [1, 2, 3] 
 
             for i, label in enumerate(labels_of_interest):
                 params = self.dataset_preprocessor.gaussian_fits[label]
@@ -151,21 +152,25 @@ class KidneyDatasetPreprocessor:
                 quantiles = norm.ppf(np.linspace(0.5 / num_quantiles, 1 - 0.5 / num_quantiles, num_quantiles), loc=mean, scale=std)
         
                 # Clip the image intensities to the range defined by the extreme quantiles
+                # outside the range = its extreme quantiles (below [0] = [0])(upper [-1] = [-1])
                 clipped_image = np.clip(self.image_resampled_xyz, quantiles[0], quantiles[-1])
         
                 # Interpolate the original intensities to [0, 1] based on the quantiles
                 interp_func = np.interp(clipped_image, quantiles, np.linspace(0, 1, num_quantiles))
         
-                # Store the interpolated image in the corresponding channel
+                # Store the interpolated image in the corresponding channel i among the multichannel of the normalized_image
                 normalized_image[..., i] = interp_func
     
-            # Rescale to 16-bit precision
+            # Rescale to 16-bit precision (TODO)
+            # converts the data type of the array elements to float32 ? (WHY 16-BIT PRECISION COMMENT ABOVE??)
             self.clipped_image_stack = np.clip(normalized_image, 0, 1).astype(np.float32)
             
         def crop_data(self):
             # Find the bounding box of non-zero regions in the segmentation
             segmentation_array = self.segmentation_resampled_xyz
             nz = np.nonzero(segmentation_array)
+
+            # provide additional margin of 63 pixels around the segmented region
             min_coords = np.max([np.min(nz, axis=1) - 63, [0,0,0]], axis=0)  # Ensure minimum coordinates are not negative
             max_coords = np.min([np.max(nz, axis=1) + 63, segmentation_array.shape], axis=0)  # Ensure maximum coordinates do not exceed the image size
 
@@ -204,19 +209,30 @@ class KidneyDatasetPreprocessor:
         # (.item(): to get the value of a key in a dict = to convert a loaded Numpy array back to its original obj form)                                                                   
         self.histograms = np.load(self.hist_path, allow_pickle=True).item() 
         
+        # Generate array from [-1000,2001)
         self.bin_edges = np.arange(-1000, 2001)  # Fixed bin edges
-        self.gaussian_fits = {}
+
+        # create empty dictionary
+        self.gaussian_fits = {} 
+
+        # return date and time when the code is executed
         self.date_str = datetime.now().strftime("%Y_%m_%d")
+
+        # use the func compute_gaussian_fits
         self.compute_gaussian_fits()
 
     # to estimate Gaussian distribution parameters from self.histograms
     def compute_gaussian_fits(self): 
         # Calculate bin centers as the midpoints of bin_edges for fitting
+        # bin_centers contain an array of values show the midpoint between each pair of consecutive bin edges
         bin_centers = (self.bin_edges[:-1] + self.bin_edges[1:]) / 2
         
+        # label: key, histogram: value (loop through every items in histogram dictionary, as shown as "histogram.items()"") 
+        # while histograms = np.load().item() is a single item retrieve from the list, then histograms.items() is get a whole list
         for label, histogram in self.histograms.items():
             # Estimate the mean and standard deviation from the histogram
             # Note: This estimation assumes the histogram approximates a Gaussian distribution
+            # np.average(): computes weighted average of bin_centers, where weights are provided by the array histogram.
             mean = np.average(bin_centers, weights=histogram)
             variance = np.average((bin_centers - mean)**2, weights=histogram)
             sigma = np.sqrt(variance)
@@ -229,12 +245,14 @@ class KidneyDatasetPreprocessor:
 
     def process_dataset(self):
         # List all subfolders in the source folder to determine the total number of cases
-        total_cases = len([name for name in os.listdir(self.source_folder)
-                           if os.path.isdir(os.path.join(self.source_folder, name))])
+        # The below code is to cal the total cases by cal the length of the list of items exist in the source_folder file after filter out any files but the files that are directories.
+        total_cases = len([name for name in os.listdir(self.source_folder) # iterates over each item in the list of files obtained from the source folder
+                           if os.path.isdir(os.path.join(self.source_folder, name))]) # check if each item is a directory "".isdir()", if True then constructs the full path to the item ".join()"
         processed_cases = 0
 
         # Iterate over each subfolder in the source folder
         # If the item in the source folder is not a subfolder (not a case folder), it continues to the next iteration.
+        # aka filter out files and only process directories within the source folder.
         for case_folder in os.listdir(self.source_folder):
             case_path = os.path.join(self.source_folder, case_folder)
             if not os.path.isdir(case_path):
@@ -282,7 +300,7 @@ class KidneyDatasetPreprocessor:
 
 if __name__ == "__main__": 
     # Path to your dataset
-    dataset_path = 'C:\\Data\\2023_09_KidneyCancer\\kits23-main\\dataset' 
+    dataset_path = "dataset" 
     hist_path = 'C:\\Code\\2023_09_KC\\local\\hists\\histogram_counts.npy'
 
     # Create an instance of the preprocessor
