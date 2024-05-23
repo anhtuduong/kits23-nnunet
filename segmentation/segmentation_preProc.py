@@ -20,6 +20,8 @@ import shutil
 from scipy.optimize import curve_fit
 from scipy.stats import norm
 
+from utils.log import Log
+
 def resample_image(image, new_spacing=[1.0, 1.0, 1.0]):
     original_spacing = image.GetSpacing()
     original_size = image.GetSize()
