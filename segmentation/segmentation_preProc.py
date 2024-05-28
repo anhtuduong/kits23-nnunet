@@ -20,7 +20,7 @@ import shutil
 from scipy.optimize import curve_fit
 from scipy.stats import norm
 
-from utils.log import Log
+from utils.log import Log as log
 
 
 
@@ -113,9 +113,14 @@ class KidneyDatasetPreprocessor:
             hist_path (str): path to the histogram data file
         """
 
+        log.debug_highlight("KidneyDatasetPreprocessor initializing...")
+
         self.source_folder = source_folder
         self.hist_path = hist_path
         
+        log.debug("source_folder: " + source_folder)
+        log.debug("hist_path: " + hist_path)
+
         # Load histogram data
         # (pickling: serialize convert obj to binary/bytes);
         # (.item(): to get the value of a key in a dict = to convert a loaded Numpy array back to its original obj form)                                                                   
@@ -212,7 +217,8 @@ class KidneyDatasetPreprocessor:
 
 if __name__ == "__main__": 
     # Path to your dataset
-    dataset_path = "dataset" 
+    dataset_path = "dataset"
+    # TODO: hist path is wrong
     hist_path = 'C:\\Code\\2023_09_KC\\local\\hists\\histogram_counts.npy'
 
     # Create an instance of the preprocessor
