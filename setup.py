@@ -19,7 +19,8 @@ setup(
         "pytest",
         'Surface-Distance-Based-Measures @ git+https://github.com/deepmind/surface-distance.git',
         'SimpleITK',
-        "batchgenerators"
+        "batchgenerators",
+        "termcolor"
     ],
     entry_points={
         'console_scripts': [
