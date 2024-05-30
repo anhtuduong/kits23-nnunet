@@ -15,9 +15,6 @@ if ROOT not in sys.path:
 # Import
 from termcolor import colored
 
-# Global constants
-# LOG_PATH = os.path.abspath(os.path.join(ROOT, "vision/logs"))
-
 # Class Log
 class Log:
     """!
@@ -44,7 +41,7 @@ class Log:
         return out
 
     def warning(text):
-        out = colored(f"[WARNING] {text}", "yellow")
+        out = colored(f"[WARNING]\t{text}", "yellow")
         print(out)
         return out
     

@@ -21,6 +21,7 @@ from scipy.optimize import curve_fit
 from scipy.stats import norm
 
 from utils.log import Log as log
+from utils.tee import Tee
 from segmentation.resample_image import resample_image
 
 # Resolve paths
@@ -31,7 +32,15 @@ ROOT = FILE.parents[1]
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))  # add ROOT to PATH
 SEGMENTATION_RESULTS = os.path.join(ROOT, "segmentation", "results")
+os.makedirs(SEGMENTATION_RESULTS, exist_ok=True)
 OUTPUT_FOLDER = os.path.join(SEGMENTATION_RESULTS, datetime.now().strftime("%Y_%m_%d_%H_%M"))
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+LOG_FILE_PATH = os.path.join(OUTPUT_FOLDER, "preprocessing_" + datetime.now().strftime("%Y_%m_%d_%H_%M") + ".log")
+
+# Redirect stdout and stderr to both terminal and log file
+log_file = open(LOG_FILE_PATH, "w")
+sys.stdout = Tee(sys.stdout, log_file)
+sys.stderr = Tee(sys.stderr, log_file)
 
 class KidneyDatasetPreprocessor:
     class KidneyCasePreprocessor:
@@ -123,7 +132,7 @@ class KidneyDatasetPreprocessor:
             hist_path (str): path to the histogram data file
         """
 
-        log.debug_info("KidneyDatasetPreprocessor INITIALIZING...")
+        log.info("KidneyDatasetPreprocessor INITIALIZING...")
 
         self.source_folder = source_folder
         self.hist_path = hist_path
@@ -169,14 +178,14 @@ class KidneyDatasetPreprocessor:
             self.gaussian_fits[label] = {'mean': mean, 'std': sigma}
 
     def process_dataset(self):
-        log.debug_info("PROCESSING DATASET...")
+        log.info("PROCESSING DATASET...")
         # List all subfolders in the source folder to determine the total number of cases
         # The below code is to cal the total cases by cal the length of the list of items exist in the source_folder file after filter out any files but the files that are directories.
         total_cases = len([name for name in os.listdir(self.source_folder) # iterates over each item in the list of files obtained from the source folder
                            if os.path.isdir(os.path.join(self.source_folder, name))]) # check if each item is a directory "".isdir()", if True then constructs the full path to the item ".join()"
         processed_cases = 0
 
-        log.warning(f"Total cases: {total_cases}")
+        log.info(f"Total cases: {total_cases}")
 
         # Iterate over each subfolder in the source folder
         # If the item in the source folder is not a subfolder (not a case folder), it continues to the next iteration.
@@ -203,6 +212,7 @@ class KidneyDatasetPreprocessor:
             processed_cases += 1
 
             log.info("PROCESSED " + str(processed_cases) + " / " + str(total_cases) + " CASES")
+            log.info("-----------------------------------")
 
     def process_case(self, casePreproc, processed_cases):
         casePreproc.range_normalize()
@@ -242,6 +252,9 @@ if __name__ == "__main__":
     # Copy the preprocessing script to the output folder
     script_name = os.path.basename(__file__)
     shutil.copy(script_name, OUTPUT_FOLDER)
+
+    # Close the log file
+    log_file.close()
 
 ## Classification table
 #classification_table = {
