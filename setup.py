@@ -20,7 +20,8 @@ setup(
         'Surface-Distance-Based-Measures @ git+https://github.com/deepmind/surface-distance.git',
         'SimpleITK',
         "batchgenerators",
-        "termcolor"
+        "termcolor",
+        "matplotlib"
     ],
     entry_points={
         'console_scripts': [
