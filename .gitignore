@@ -1,6 +1,8 @@
 dataset/*/*imaging.nii.gz
 dataset/*/raw
 
+# Segmentation results
+segmentation/results/
 
 # DEFAULTS BELOW ==============================================================
 

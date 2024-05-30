@@ -21,6 +21,7 @@ from scipy.optimize import curve_fit
 from scipy.stats import norm
 
 from utils.log import Log as log
+from segmentation.resample_image import resample_image
 
 # Resolve paths
 import sys
@@ -29,6 +30,8 @@ FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))  # add ROOT to PATH
+SEGMENTATION_RESULTS = os.path.join(ROOT, "segmentation", "results")
+OUTPUT_FOLDER = os.path.join(SEGMENTATION_RESULTS, datetime.now().strftime("%Y_%m_%d_%H_%M"))
 
 class KidneyDatasetPreprocessor:
     class KidneyCasePreprocessor:
@@ -103,8 +106,7 @@ class KidneyDatasetPreprocessor:
         def save_data(self):
             # Derive case_id from the case_path
             case_id = os.path.basename(self.case_path)
-            date_str = datetime.now().strftime("%Y_%m_%d")
-            output_folder = os.path.join(ROOT, date_str, case_id)
+            output_folder = os.path.join(OUTPUT_FOLDER, case_id)
             os.makedirs(output_folder, exist_ok=True)
 
             # Save the cropped data
@@ -137,9 +139,6 @@ class KidneyDatasetPreprocessor:
 
         # create empty dictionary
         self.gaussian_fits = {} 
-
-        # return date and time when the code is executed
-        self.date_str = datetime.now().strftime("%Y_%m_%d")
 
         # use the func compute_gaussian_fits
         self.compute_gaussian_fits()
@@ -182,7 +181,7 @@ class KidneyDatasetPreprocessor:
                 continue
 
             # Check if the target folder for this case already exists to determine if it should be skipped
-            target_folder = os.path.join(ROOT, self.date_str, case_folder)
+            target_folder = os.path.join(OUTPUT_FOLDER, case_folder)
             if os.path.exists(target_folder):
                 print(f"Skipping already processed case: {case_folder}")
                 continue
@@ -210,7 +209,7 @@ class KidneyDatasetPreprocessor:
     def save_slices_as_images(self, casePreproc):
         # Derive case_id from the case_path
         case_id = os.path.basename(casePreproc.case_path)
-        output_folder = os.path.join(ROOT, self.date_str, case_id, "slices")
+        output_folder = os.path.join(OUTPUT_FOLDER, case_id, "slices")
         os.makedirs(output_folder, exist_ok=True)
 
         # Save each slice of the image and segmentation
@@ -224,7 +223,7 @@ class KidneyDatasetPreprocessor:
 if __name__ == "__main__": 
     # Path to your dataset
     dataset_path = "dataset"
-    # TODO: hist path is wrong
+    # Paht to the histogram data file
     hist_path = "hists/histogram_counts.npy"
 
     # Create an instance of the preprocessor
@@ -235,7 +234,7 @@ if __name__ == "__main__":
 
     # Copy the preprocessing script to the output folder
     script_name = os.path.basename(__file__)
-    shutil.copy(script_name, os.path.join(ROOT, datetime.now().strftime("%Y_%m_%d")))
+    shutil.copy(script_name, OUTPUT_FOLDER)
 
 ## Classification table
 #classification_table = {
