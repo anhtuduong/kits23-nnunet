@@ -45,6 +45,8 @@ class KidneyDatasetPreprocessor:
             self.case_path = os.path.join(case_path)
             self.dataset_preprocessor = dataset_preprocessor
 
+            log.info("Processing case: " + self.case_path)
+
         def load_data(self):
             self.image = sitk.ReadImage(os.path.join(self.case_path, 'imaging.nii.gz'))
             self.segmentation = sitk.ReadImage(os.path.join(self.case_path, 'segmentation.nii.gz'))
@@ -121,7 +123,7 @@ class KidneyDatasetPreprocessor:
             hist_path (str): path to the histogram data file
         """
 
-        log.debug_highlight("KidneyDatasetPreprocessor initializing...")
+        log.debug_info("KidneyDatasetPreprocessor INITIALIZING...")
 
         self.source_folder = source_folder
         self.hist_path = hist_path
@@ -144,7 +146,8 @@ class KidneyDatasetPreprocessor:
         self.compute_gaussian_fits()
 
     # to estimate Gaussian distribution parameters from self.histograms
-    def compute_gaussian_fits(self): 
+    def compute_gaussian_fits(self):
+        log.debug("Computing Gaussian fits...")
         # Calculate bin centers as the midpoints of bin_edges for fitting
         # bin_centers contain an array of values show the midpoint between each pair of consecutive bin edges
         bin_centers = (self.bin_edges[:-1] + self.bin_edges[1:]) / 2
@@ -166,11 +169,14 @@ class KidneyDatasetPreprocessor:
             self.gaussian_fits[label] = {'mean': mean, 'std': sigma}
 
     def process_dataset(self):
+        log.debug_info("PROCESSING DATASET...")
         # List all subfolders in the source folder to determine the total number of cases
         # The below code is to cal the total cases by cal the length of the list of items exist in the source_folder file after filter out any files but the files that are directories.
         total_cases = len([name for name in os.listdir(self.source_folder) # iterates over each item in the list of files obtained from the source folder
                            if os.path.isdir(os.path.join(self.source_folder, name))]) # check if each item is a directory "".isdir()", if True then constructs the full path to the item ".join()"
         processed_cases = 0
+
+        log.warning(f"Total cases: {total_cases}")
 
         # Iterate over each subfolder in the source folder
         # If the item in the source folder is not a subfolder (not a case folder), it continues to the next iteration.
@@ -195,7 +201,8 @@ class KidneyDatasetPreprocessor:
             self.process_case(casePreproc, processed_cases)
 
             processed_cases += 1
-            print(f"Processed {processed_cases} out of {total_cases} cases.")
+
+            log.info("PROCESSED " + str(processed_cases) + " / " + str(total_cases) + " CASES")
 
     def process_case(self, casePreproc, processed_cases):
         casePreproc.range_normalize()

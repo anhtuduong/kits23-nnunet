@@ -83,7 +83,7 @@ def resample_image(image, new_spacing=[1.0, 1.0, 1.0]):
         # Resamples the image in the z-dimension
         resampled_image_xyz = resampler.Execute(resampled_image_xy)
 
-        log.debug_highlight("Resampling complete. Returning the resampled image as a NumPy array...")
+        log.debug("Resampling complete. Returning the resampled image as a NumPy array...")
 
         # Returns the resampled image as a NumPy array
         return sitk.GetArrayFromImage(resampled_image_xyz)
