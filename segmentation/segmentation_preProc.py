@@ -22,7 +22,13 @@ from scipy.stats import norm
 
 from utils.log import Log as log
 
-
+# Resolve paths
+import sys
+from pathlib import Path
+FILE = Path(__file__).resolve()
+ROOT = FILE.parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))  # add ROOT to PATH
 
 class KidneyDatasetPreprocessor:
     class KidneyCasePreprocessor:
@@ -98,7 +104,7 @@ class KidneyDatasetPreprocessor:
             # Derive case_id from the case_path
             case_id = os.path.basename(self.case_path)
             date_str = datetime.now().strftime("%Y_%m_%d")
-            output_folder = os.path.join('C:\\Data\\2023_09_KidneyCancer\\kits23-main', date_str, case_id)
+            output_folder = os.path.join(ROOT, date_str, case_id)
             os.makedirs(output_folder, exist_ok=True)
 
             # Save the cropped data
@@ -176,7 +182,7 @@ class KidneyDatasetPreprocessor:
                 continue
 
             # Check if the target folder for this case already exists to determine if it should be skipped
-            target_folder = os.path.join('C:\\Data\\2023_09_KidneyCancer\\kits23-main', self.date_str, case_folder)
+            target_folder = os.path.join(ROOT, self.date_str, case_folder)
             if os.path.exists(target_folder):
                 print(f"Skipping already processed case: {case_folder}")
                 continue
@@ -204,7 +210,7 @@ class KidneyDatasetPreprocessor:
     def save_slices_as_images(self, casePreproc):
         # Derive case_id from the case_path
         case_id = os.path.basename(casePreproc.case_path)
-        output_folder = os.path.join('C:\\Data\\2023_09_KidneyCancer\\kits23-main', self.date_str, case_id, "slices")
+        output_folder = os.path.join(ROOT, self.date_str, case_id, "slices")
         os.makedirs(output_folder, exist_ok=True)
 
         # Save each slice of the image and segmentation
@@ -219,7 +225,7 @@ if __name__ == "__main__":
     # Path to your dataset
     dataset_path = "dataset"
     # TODO: hist path is wrong
-    hist_path = 'C:\\Code\\2023_09_KC\\local\\hists\\histogram_counts.npy'
+    hist_path = "hists/histogram_counts.npy"
 
     # Create an instance of the preprocessor
     preprocessor = KidneyDatasetPreprocessor(dataset_path, hist_path)
@@ -229,7 +235,7 @@ if __name__ == "__main__":
 
     # Copy the preprocessing script to the output folder
     script_name = os.path.basename(__file__)
-    shutil.copy(script_name, os.path.join('C:\\Data\\2023_09_KidneyCancer\\kits23-main', datetime.now().strftime("%Y_%m_%d")))
+    shutil.copy(script_name, os.path.join(ROOT, datetime.now().strftime("%Y_%m_%d")))
 
 ## Classification table
 #classification_table = {
