@@ -1,5 +1,9 @@
+*nii.gz
+
 dataset/*/*imaging.nii.gz
 dataset/*/raw
+
+venv*/
 
 # Segmentation results
 segmentation/results/

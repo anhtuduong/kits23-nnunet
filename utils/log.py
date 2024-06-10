@@ -12,36 +12,33 @@ ROOT = FILE.parents[1]
 if ROOT not in sys.path:
     sys.path.append(str(ROOT))  # add ROOT to PATH
 
-# Import
-from termcolor import colored
-
 # Class Log
 class Log:
     """!
     @brief This class contains utility functions for logging.
     """
     def info(text):
-        out = colored(f"[INFO]\t{text}", "green", attrs=["bold"])
+        out = (f"[INFO]\t{text}")
         print(out)
         return out
 
     def debug(text):
-        out = f"[DEBUG]\t{text}"
+        out = (f"[DEBUG]\t{text}")
         print(out)
         return out
 
     def debug_highlight(text):
-        out = colored(f"[DEBUG]\t{text}", "blue", attrs=["bold"])
+        out = (f"[DEBUG]\t{text}")
         print(out)
         return out
 
     def error(text):
-        out = colored(f"[ERROR]\t{text}", "red")
+        out = (f"[ERROR]\t{text}")
         print(out)
         return out
 
     def warning(text):
-        out = colored(f"[WARNING]\t{text}", "yellow")
+        out = (f"[WARNING]\t{text}")
         print(out)
         return out
     
