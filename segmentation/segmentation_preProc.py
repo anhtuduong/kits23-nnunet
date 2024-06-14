@@ -87,8 +87,6 @@ class KidneyDatasetPreprocessor:
                 # Store the interpolated image in the corresponding channel i among the multichannel of the normalized_image
                 normalized_image[..., i] = interp_func
     
-            # Rescale to 16-bit precision (TODO)
-            # converts the data type of the array elements to float32 ? (WHY 16-BIT PRECISION COMMENT ABOVE??)
             self.clipped_image_stack = np.clip(normalized_image, 0, 1).astype(np.float32)
             
         def crop_data(self):
@@ -108,12 +106,17 @@ class KidneyDatasetPreprocessor:
                                                            min_coords[1]:max_coords[1],
                                                            min_coords[2]:max_coords[2]]
 
+        def add_histology_data(self):
+            # TODO: add another channel for histology data
+            pass
+
         def save_data(self):
             # Derive case_id from the case_path
             case_id = os.path.basename(self.case_path)
             output_folder = os.path.join(OUTPUT_FOLDER, case_id)
             os.makedirs(output_folder, exist_ok=True)
 
+            # TODO Save data as NiBabel files
             # Save the cropped data
             np.save(os.path.join(output_folder, 'cropped_image.npy'), self.cropped_image)
             np.save(os.path.join(output_folder, 'cropped_segmentation.npy'), self.cropped_segmentation)
@@ -209,6 +212,7 @@ class KidneyDatasetPreprocessor:
     def process_case(self, casePreproc, processed_cases):
         casePreproc.range_normalize()
         casePreproc.crop_data()
+        casePreproc.add_histology_data()
         casePreproc.save_data()
 
         # # Save slices as images for a few cases
