@@ -29,6 +29,11 @@ print("--------")
 for subtype in sorted(set(tumor_subtypes)):
     print(f"{subtype}: {tumor_subtypes.count(subtype)} cases")
 
+# Save the list of tumor subtypes to a text file
+with open(output_path, 'w') as f:
+    for subtype in sorted(set(tumor_subtypes)):
+        f.write(f"{subtype}: {tumor_subtypes.count(subtype)} cases\n")
+
 # ------------------------------------------------------------
 
 # Create a graph of the tumor subtypes

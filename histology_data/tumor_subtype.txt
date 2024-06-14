@@ -1,0 +1,14 @@
+angiomyolipoma: 5 cases
+chromophobe: 27 cases
+clear_cell_papillary_rcc: 7 cases
+clear_cell_rcc: 204 cases
+collecting_duct_undefined: 1 cases
+mest: 3 cases
+multilocular_cystic_rcc: 1 cases
+oncocytoma: 16 cases
+other: 1 cases
+papillary: 28 cases
+rcc_unclassified: 2 cases
+spindle_cell_neoplasm: 1 cases
+urothelial: 3 cases
+wilms: 1 cases

@@ -1,0 +1,23 @@
+
+{
+    "labels": {
+        "background": 0,
+        "kidney": [1, 2, 3],
+        "masses": [2, 3],
+        "tumor": 2,
+        "angiomyolipoma": 4,
+        "chromophobe": 5,
+        "clear_cell_papillary_rcc": 6,
+        "clear_cell_rcc": 7,
+        "collecting_duct_undefined": 8,
+        "mest": 9,
+        "multilocular_cystic_rcc": 10,
+        "oncocytoma": 11,
+        "other": 12,
+        "papillary": 13,
+        "rcc_unclassified": 14,
+        "spindle_cell_neoplasm": 15,
+        "urothelial": 16,
+        "wilms": 17
+    }
+}

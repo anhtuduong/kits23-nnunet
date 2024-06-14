@@ -43,7 +43,7 @@ class KidneyDatasetPreprocessor:
             Constructor of class KidneyCasePreprocessor:
             Args:
                 case_path (str): path of cases (usually see as os.path.join() to join the many path strings into 1 string)
-                dataset_preprocessor (TODO)
+                dataset_preprocessor
             """
             self.case_path = os.path.join(case_path)
             self.dataset_preprocessor = dataset_preprocessor
@@ -121,26 +121,27 @@ class KidneyDatasetPreprocessor:
             np.save(os.path.join(output_folder, 'cropped_image.npy'), self.cropped_image)
             np.save(os.path.join(output_folder, 'cropped_segmentation.npy'), self.cropped_segmentation)
  
-    def __init__(self, source_folder, hist_path): 
+    def __init__(self, source_folder, histogram_path, histology_data_path): 
         """
         Constructor of class KidneyDatasetPreprocessor
         Args:
             source_folder (str): path to the source data folder that will be used in the preprocess
-            hist_path (str): path to the histogram data file
+            histogram_path (str): path to the histogram data file
         """
 
         print("KidneyDatasetPreprocessor INITIALIZING...")
 
         self.source_folder = source_folder
-        self.hist_path = hist_path
+        self.histogram_path = histogram_path
+        self.histology_data_path = histology_data_path
         
         print("source_folder: " + source_folder)
-        print("hist_path: " + hist_path)
+        print("histogram_path: " + histogram_path)
 
         # Load histogram data
         # (pickling: serialize convert obj to binary/bytes);
         # (.item(): to get the value of a key in a dict = to convert a loaded Numpy array back to its original obj form)                                                                   
-        self.histograms = np.load(self.hist_path, allow_pickle=True).item() 
+        self.histograms = np.load(self.histogram_path, allow_pickle=True).item() 
         
         # Generate array from [-1000,2001)
         self.bin_edges = np.arange(-1000, 2001)  # Fixed bin edges
@@ -237,10 +238,12 @@ if __name__ == "__main__":
     # Path to raw dataset
     dataset_path = "dataset"
     # Path to the histogram data file
-    hist_path = "hists/histogram_counts.npy" 
+    histogram_path = "hists/histogram_counts.npy"
+    # Path to the histology data file
+    histology_data_path = "histology_data/kits.json"
 
     # Create an instance of the preprocessor
-    preprocessor = KidneyDatasetPreprocessor(dataset_path, hist_path)
+    preprocessor = KidneyDatasetPreprocessor(dataset_path, histogram_path, histology_data_path)
 
     # Process dataset
     preprocessor.process_dataset()
