@@ -211,9 +211,9 @@ class KidneyDatasetPreprocessor:
         casePreproc.crop_data()
         casePreproc.save_data()
 
-        # Save slices as images for a few cases
-        if processed_cases <= 4:
-            self.save_slices_as_images(casePreproc)
+        # # Save slices as images for a few cases
+        # if processed_cases <= 4:
+        #     self.save_slices_as_images(casePreproc)
 
     def save_slices_as_images(self, casePreproc):
         # Derive case_id from the case_path
@@ -230,10 +230,10 @@ class KidneyDatasetPreprocessor:
             plt.imsave(os.path.join(output_folder, f"seg_slice_{i:03d}.png"), casePreproc.cropped_segmentation[:, :, i])
 
 if __name__ == "__main__": 
-    # Path to your dataset
+    # Path to raw dataset
     dataset_path = "dataset"
-    # Paht to the histogram data file
-    hist_path = "hists/histogram_counts.npy"
+    # Path to the histogram data file
+    hist_path = "hists/histogram_counts.npy" 
 
     # Create an instance of the preprocessor
     preprocessor = KidneyDatasetPreprocessor(dataset_path, hist_path)

@@ -1,5 +1,5 @@
-
 import json
+import matplotlib.pyplot as plt
 
 # Define the path to the JSON file
 json_path = "histology_data/kits.json"
@@ -21,14 +21,43 @@ for item in data:
     if subtype is not None:
         tumor_subtypes.append(subtype)
 
-# Print the list of tumor subtypes
-print("Tumor Histologic Subtypes:", tumor_subtypes)
+# Print the list of different tumor subtypes
+count_unique = len(set(tumor_subtypes))
+print(f"Number of unique tumor subtypes: {count_unique}")
+# Print the list of tumor subtypes with their counts
+print("--------")
+for subtype in sorted(set(tumor_subtypes)):
+    print(f"{subtype}: {tumor_subtypes.count(subtype)} cases")
 
-# Save the list to a text file
-with open(output_path, 'w') as f:
-    # Write each subtype on a new line
-    for subtype in tumor_subtypes:
-        f.write(subtype + "\n")
+# ------------------------------------------------------------
 
-# Print confirmation message
-print("Tumor subtypes saved to:", output_path)
+# Create a graph of the tumor subtypes
+
+# Count the number of occurrences of each subtype
+subtype_counts = {subtype: tumor_subtypes.count(subtype) for subtype in set(tumor_subtypes)}
+
+# Sort the subtypes by count in descending order
+sorted_subtypes = sorted(subtype_counts.items(), key=lambda x: x[1], reverse=True)
+
+# Extract the subtypes and counts for plotting
+subtypes = [subtype[0] for subtype in sorted_subtypes]
+counts = [subtype[1] for subtype in sorted_subtypes]
+
+# Create a bar plot of the tumor subtypes
+plt.figure(figsize=(12, 6))
+plt.bar(subtypes, counts, color='skyblue')
+plt.xlabel('Tumor Subtypes')
+plt.ylabel('Number of Cases')
+plt.title('Distribution of Tumor Subtypes')
+plt.xticks(rotation=45, ha='right')
+# Display the counts on top of the bars
+for i, count in enumerate(counts):
+    plt.text(i, count + 1, str(count), ha='center', va='bottom')
+plt.tight_layout()
+plt.show()
+
+# Save graph to image file
+graph_output_path = "histology_data/tumor_subtype_distribution.png"
+plt.savefig(graph_output_path)
+
+print(f"Graph saved to: {graph_output_path}")
