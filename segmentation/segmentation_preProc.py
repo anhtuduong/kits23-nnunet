@@ -20,8 +20,6 @@ import shutil
 from scipy.optimize import curve_fit
 from scipy.stats import norm
 
-from utils.log import Log as log
-from utils.tee import Tee
 from segmentation.resample_image import resample_image
 
 # Resolve paths
@@ -37,10 +35,6 @@ OUTPUT_FOLDER = os.path.join(SEGMENTATION_RESULTS, datetime.now().strftime("%Y_%
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 LOG_FILE_PATH = os.path.join(OUTPUT_FOLDER, "preprocessing_" + datetime.now().strftime("%Y_%m_%d_%H_%M") + ".log")
 
-# Redirect stdout and stderr to both terminal and log file
-log_file = open(LOG_FILE_PATH, "w")
-sys.stdout = Tee(sys.stdout, log_file)
-sys.stderr = Tee(sys.stderr, log_file)
 
 class KidneyDatasetPreprocessor:
     class KidneyCasePreprocessor:
@@ -54,7 +48,7 @@ class KidneyDatasetPreprocessor:
             self.case_path = os.path.join(case_path)
             self.dataset_preprocessor = dataset_preprocessor
 
-            log.info("Processing case: " + self.case_path)
+            print("Processing case: " + self.case_path)
 
         def load_data(self):
             self.image = sitk.ReadImage(os.path.join(self.case_path, 'imaging.nii.gz'))
@@ -132,13 +126,13 @@ class KidneyDatasetPreprocessor:
             hist_path (str): path to the histogram data file
         """
 
-        log.info("KidneyDatasetPreprocessor INITIALIZING...")
+        print("KidneyDatasetPreprocessor INITIALIZING...")
 
         self.source_folder = source_folder
         self.hist_path = hist_path
         
-        log.debug("source_folder: " + source_folder)
-        log.debug("hist_path: " + hist_path)
+        print("source_folder: " + source_folder)
+        print("hist_path: " + hist_path)
 
         # Load histogram data
         # (pickling: serialize convert obj to binary/bytes);
@@ -156,7 +150,6 @@ class KidneyDatasetPreprocessor:
 
     # to estimate Gaussian distribution parameters from self.histograms
     def compute_gaussian_fits(self):
-        log.debug("Computing Gaussian fits...")
         # Calculate bin centers as the midpoints of bin_edges for fitting
         # bin_centers contain an array of values show the midpoint between each pair of consecutive bin edges
         bin_centers = (self.bin_edges[:-1] + self.bin_edges[1:]) / 2
@@ -178,14 +171,13 @@ class KidneyDatasetPreprocessor:
             self.gaussian_fits[label] = {'mean': mean, 'std': sigma}
 
     def process_dataset(self):
-        log.info("PROCESSING DATASET...")
         # List all subfolders in the source folder to determine the total number of cases
         # The below code is to cal the total cases by cal the length of the list of items exist in the source_folder file after filter out any files but the files that are directories.
         total_cases = len([name for name in os.listdir(self.source_folder) # iterates over each item in the list of files obtained from the source folder
                            if os.path.isdir(os.path.join(self.source_folder, name))]) # check if each item is a directory "".isdir()", if True then constructs the full path to the item ".join()"
         processed_cases = 0
 
-        log.info(f"Total cases: {total_cases}")
+        print(f"Total cases: {total_cases}")
 
         # Iterate over each subfolder in the source folder
         # If the item in the source folder is not a subfolder (not a case folder), it continues to the next iteration.
@@ -211,8 +203,8 @@ class KidneyDatasetPreprocessor:
 
             processed_cases += 1
 
-            log.info("PROCESSED " + str(processed_cases) + " / " + str(total_cases) + " CASES")
-            log.info("-----------------------------------")
+            print("PROCESSED " + str(processed_cases) + " / " + str(total_cases) + " CASES")
+
 
     def process_case(self, casePreproc, processed_cases):
         casePreproc.range_normalize()
@@ -220,7 +212,7 @@ class KidneyDatasetPreprocessor:
         casePreproc.save_data()
 
         # Save slices as images for a few cases
-        if processed_cases <= 4:  # Considering 0-based indexing (TODO)
+        if processed_cases <= 4:
             self.save_slices_as_images(casePreproc)
 
     def save_slices_as_images(self, casePreproc):
@@ -253,8 +245,6 @@ if __name__ == "__main__":
     script_name = os.path.basename(__file__)
     shutil.copy(script_name, OUTPUT_FOLDER)
 
-    # Close the log file
-    log_file.close()
 
 ## Classification table
 #classification_table = {

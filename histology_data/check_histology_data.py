@@ -2,7 +2,10 @@
 import json
 
 # Define the path to the JSON file
-json_path = "/Users/hoaithunguyen/Documents/FBK/Internship/Data/kits.json"
+json_path = "histology_data/kits.json"
+
+# Define the path to the output text file
+output_path = "histology_data/tumor_subtype.txt"
 
 # Initialize an empty list to store subtypes
 tumor_subtypes = []
@@ -22,10 +25,10 @@ for item in data:
 print("Tumor Histologic Subtypes:", tumor_subtypes)
 
 # Save the list to a text file
-with open('/Users/hoaithunguyen/Documents/FBK/Internship/Data/tumor_subtype', 'w') as f:
+with open(output_path, 'w') as f:
     # Write each subtype on a new line
     for subtype in tumor_subtypes:
         f.write(subtype + "\n")
 
 # Print confirmation message
-print("Tumor subtypes saved to:", '/Users/hoaithunguyen/Documents/FBK/Internship/Data/tumor_subtype')
+print("Tumor subtypes saved to:", output_path)
