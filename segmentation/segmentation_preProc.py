@@ -21,6 +21,7 @@ from scipy.optimize import curve_fit
 from scipy.stats import norm
 
 from segmentation.resample_image import resample_image
+from segmentation.convert_npy_to_nii_gz import convert_npy_to_nii_gz
 
 # Resolve paths
 import sys
@@ -62,9 +63,9 @@ class KidneyDatasetPreprocessor:
             # Number of quantiles (2^16 for 16-bit precision)
             num_quantiles = 2**16 + 1
 
-            # Initialize a 3-channel image with the same spatial dimensions as the input image
+            # Initialize a single channel image with the same spatial dimensions as the input image
             # and dtype float to accommodate [0, 1] range at 16-bit precision
-            normalized_image = np.zeros((*self.image_resampled_xyz.shape, 3), dtype=np.float32)
+            normalized_image = np.zeros(self.image_resampled_xyz.shape, dtype=np.float32)
 
             # Specify the labels of interest (skipping the background) 
             #(0 = background), (1: kidney), (2: tumor), (3: cyst)
@@ -85,7 +86,7 @@ class KidneyDatasetPreprocessor:
                 interp_func = np.interp(clipped_image, quantiles, np.linspace(0, 1, num_quantiles))
         
                 # Store the interpolated image in the corresponding channel i among the multichannel of the normalized_image
-                normalized_image[..., i] = interp_func
+                normalized_image = interp_func
     
             self.clipped_image_stack = np.clip(normalized_image, 0, 1).astype(np.float32)
             
@@ -117,9 +118,13 @@ class KidneyDatasetPreprocessor:
             os.makedirs(output_folder, exist_ok=True)
 
             # TODO Save data as NiBabel files
-            # Save the cropped data
-            np.save(os.path.join(output_folder, 'cropped_image.npy'), self.cropped_image)
-            np.save(os.path.join(output_folder, 'cropped_segmentation.npy'), self.cropped_segmentation)
+            convert_npy_to_nii_gz(self.cropped_image, os.path.join(output_folder, "imaging.nii.gz"))
+            convert_npy_to_nii_gz(self.cropped_segmentation, os.path.join(output_folder, "segmentation.nii.gz"))
+
+            # # Save the cropped data
+            # np.save(os.path.join(output_folder, 'cropped_image.npy'), self.cropped_image)
+            # np.save(os.path.join(output_folder, 'cropped_segmentation.npy'), self.cropped_segmentation)
+            
  
     def __init__(self, source_folder, histogram_path, histology_data_path): 
         """
@@ -236,7 +241,7 @@ class KidneyDatasetPreprocessor:
 
 if __name__ == "__main__": 
     # Path to raw dataset
-    dataset_path = "dataset"
+    dataset_path = "dataset_test"
     # Path to the histogram data file
     histogram_path = "hists/histogram_counts.npy"
     # Path to the histology data file

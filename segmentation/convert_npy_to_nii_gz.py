@@ -2,10 +2,10 @@ import os
 import nibabel as nib
 import numpy as np
 
-PREPROCESSED_PATH = "segmentation/results/2024_06_04_16_29"
+PREPROCESSED_PATH = "segmentation/results/2024_06_17_10_10"
 NPY_IMG = "cropped_image.npy"
 NPY_SEG = "cropped_segmentation.npy"
-OUTPUT_PATH = "segmentation/converted/2024_06_04_16_29"
+OUTPUT_PATH = "segmentation/converted/2024_06_17_10_10"
 NII_IMG = "imaging.nii.gz"
 NII_SEG = "segmentation.nii.gz"
 
