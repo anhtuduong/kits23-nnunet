@@ -12,7 +12,7 @@ def convert_4d_to_3d(nii_img_path):
     
     # Select a specific volume (e.g., the first volume)
     # Assuming the 4th dimension is the time dimension, we select the first time point
-    image_3d_data = image_4d_data[..., 0]
+    image_3d_data = image_4d_data[..., 1]
     
     # Create a new NIfTI image with the 3D data
     image_3d = nib.Nifti1Image(image_3d_data, affine=image_4d.affine, header=image_4d.header)

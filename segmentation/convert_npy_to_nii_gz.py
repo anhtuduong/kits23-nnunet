@@ -21,9 +21,8 @@ def get_subfolders(directory):
         print(f"Permission denied to access the directory '{directory}'.")
         return []
     
-def convert_npy_to_nii_gz(npy_path, output_path):
-    data = np.load(npy_path)
-    img = nib.Nifti1Image(data, np.eye(4))  # Save axis for data (just identity)
+def convert_npy_to_nii_gz(npy_data, output_path):
+    img = nib.Nifti1Image(npy_data, np.eye(4))  # Save axis for data (just identity)
     img.header.get_xyzt_units()
     img.to_filename(output_path)  # Save as NiBabel file
 
