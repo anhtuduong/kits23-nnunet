@@ -3,9 +3,11 @@ import matplotlib.pyplot as plt
 
 # Define the path to the JSON file
 json_path = "histology_data/kits.json"
+# json_path = "histology_data/kits23_histology_data.json"
 
 # Define the path to the output text file
 output_path = "histology_data/tumor_subtype.txt"
+# output_path = "histology_data/tumor_subtype_minimal.txt"
 
 # Initialize an empty list to store subtypes
 tumor_subtypes = []

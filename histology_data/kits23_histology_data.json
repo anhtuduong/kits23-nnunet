@@ -1,0 +1,1202 @@
+[
+    {
+        "case_id": "case_00000",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00001",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00002",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00003",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00004",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00005",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00006",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00007",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00008",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00009",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00010",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00011",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00012",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00013",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00014",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00015",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00016",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00017",
+        "tumor_histologic_subtype": "angiomyolipoma"
+    },
+    {
+        "case_id": "case_00018",
+        "tumor_histologic_subtype": "rcc_unclassified"
+    },
+    {
+        "case_id": "case_00019",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00020",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00021",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00022",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00023",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00024",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00025",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00026",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00027",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00028",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00029",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00030",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00031",
+        "tumor_histologic_subtype": "spindle_cell_neoplasm"
+    },
+    {
+        "case_id": "case_00032",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00033",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00034",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00035",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00036",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00037",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00038",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00039",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00040",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00041",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00042",
+        "tumor_histologic_subtype": "mest"
+    },
+    {
+        "case_id": "case_00043",
+        "tumor_histologic_subtype": "angiomyolipoma"
+    },
+    {
+        "case_id": "case_00044",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00045",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00046",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00047",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00048",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00049",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00050",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00051",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00052",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00053",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00054",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00055",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00056",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00057",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00058",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00059",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00060",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00061",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00062",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00063",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00064",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00065",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00066",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00067",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00068",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00069",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00070",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00071",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00072",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00073",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00074",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00075",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00076",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00077",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00078",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00079",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00080",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00081",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00082",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00083",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00084",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00085",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00086",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00087",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00088",
+        "tumor_histologic_subtype": "wilms"
+    },
+    {
+        "case_id": "case_00089",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00090",
+        "tumor_histologic_subtype": "urothelial"
+    },
+    {
+        "case_id": "case_00091",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00092",
+        "tumor_histologic_subtype": "rcc_unclassified"
+    },
+    {
+        "case_id": "case_00093",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00094",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00095",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00096",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00097",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00098",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00099",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00100",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00101",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00102",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00103",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00104",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00105",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00106",
+        "tumor_histologic_subtype": "multilocular_cystic_rcc"
+    },
+    {
+        "case_id": "case_00107",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00108",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00109",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00110",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00111",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00112",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00113",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00114",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00115",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00116",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00117",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00118",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00119",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00120",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00121",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00122",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00123",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00124",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00125",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00126",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00127",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00128",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00129",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00130",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00131",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00132",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00133",
+        "tumor_histologic_subtype": "mest"
+    },
+    {
+        "case_id": "case_00134",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00135",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00136",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00137",
+        "tumor_histologic_subtype": "angiomyolipoma"
+    },
+    {
+        "case_id": "case_00138",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00139",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00140",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00141",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00142",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00143",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00144",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00145",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00146",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00147",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00148",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00149",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00150",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00151",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00152",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00153",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00154",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00155",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00156",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00157",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00158",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00159",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00160",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00161",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00162",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00163",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00164",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00165",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00166",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00167",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00168",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00169",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00170",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00171",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00172",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00173",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00174",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00175",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00176",
+        "tumor_histologic_subtype": "angiomyolipoma"
+    },
+    {
+        "case_id": "case_00177",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00178",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00179",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00180",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00181",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00182",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00183",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00184",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00185",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00186",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00187",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00188",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00189",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00190",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00191",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00192",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00193",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00194",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00195",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00196",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00197",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00198",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00199",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00200",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00201",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00202",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00203",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00204",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00205",
+        "tumor_histologic_subtype": "angiomyolipoma"
+    },
+    {
+        "case_id": "case_00206",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00207",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00208",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00209",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00210",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00211",
+        "tumor_histologic_subtype": "mest"
+    },
+    {
+        "case_id": "case_00212",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00213",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00214",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00215",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00216",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00217",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00218",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00219",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00220",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00221",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00222",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00223",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00224",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00225",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00226",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00227",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00228",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00229",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00230",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00231",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00232",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00233",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00234",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00235",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00236",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00237",
+        "tumor_histologic_subtype": "urothelial"
+    },
+    {
+        "case_id": "case_00238",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00239",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00240",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00241",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00242",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00243",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00244",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00245",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00246",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00247",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00248",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00249",
+        "tumor_histologic_subtype": "clear_cell_papillary_rcc"
+    },
+    {
+        "case_id": "case_00250",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00251",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00252",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00253",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00254",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00255",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00256",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00257",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00258",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00259",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00260",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00261",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00262",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00263",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00264",
+        "tumor_histologic_subtype": "papillary"
+    },
+    {
+        "case_id": "case_00265",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00266",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00267",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00268",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00269",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00270",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00271",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00272",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00273",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00274",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00275",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00276",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00277",
+        "tumor_histologic_subtype": "urothelial"
+    },
+    {
+        "case_id": "case_00278",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00279",
+        "tumor_histologic_subtype": "oncocytoma"
+    },
+    {
+        "case_id": "case_00280",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00281",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00282",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00283",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00284",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00285",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00286",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00287",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00288",
+        "tumor_histologic_subtype": "other"
+    },
+    {
+        "case_id": "case_00289",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00290",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00291",
+        "tumor_histologic_subtype": "collecting_duct_undefined"
+    },
+    {
+        "case_id": "case_00292",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00293",
+        "tumor_histologic_subtype": "chromophobe"
+    },
+    {
+        "case_id": "case_00294",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00295",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00296",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00297",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00298",
+        "tumor_histologic_subtype": "clear_cell_rcc"
+    },
+    {
+        "case_id": "case_00299",
+        "tumor_histologic_subtype": "papillary"
+    }
+]

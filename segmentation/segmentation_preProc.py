@@ -1,21 +1,16 @@
 
 import matplotlib.pyplot as plt
 import random
-# SimpleITK: Simplified, open-source to Insight Toolkit(ITK) image analysis toolkit
 import SimpleITK as sitk
-# os = operating system
 import os 
 from scipy import ndimage
 from scipy.ndimage import binary_opening, generate_binary_structure
 import time
-# numpy deal with arrays
 import numpy as np 
 from importlib import reload
-#import debug_helpers as db
 import json
 import cv2
 from datetime import datetime
-# shutil helps in automating process of copying and removal of files and directories
 import shutil
 from scipy.optimize import curve_fit
 from scipy.stats import norm
@@ -63,9 +58,9 @@ class KidneyDatasetPreprocessor:
             # Number of quantiles (2^16 for 16-bit precision)
             num_quantiles = 2**16 + 1
 
-            # Initialize a single channel image with the same spatial dimensions as the input image
+            # Initialize 3-channel image with the same spatial dimensions as the input image
             # and dtype float to accommodate [0, 1] range at 16-bit precision
-            normalized_image = np.zeros(self.image_resampled_xyz.shape, dtype=np.float32)
+            normalized_image = np.zeros((*self.image_resampled_xyz.shape, 3), dtype=np.float32)
 
             # Specify the labels of interest (skipping the background) 
             #(0 = background), (1: kidney), (2: tumor), (3: cyst)
@@ -86,7 +81,7 @@ class KidneyDatasetPreprocessor:
                 interp_func = np.interp(clipped_image, quantiles, np.linspace(0, 1, num_quantiles))
         
                 # Store the interpolated image in the corresponding channel i among the multichannel of the normalized_image
-                normalized_image = interp_func
+                normalized_image[..., i] = interp_func
     
             self.clipped_image_stack = np.clip(normalized_image, 0, 1).astype(np.float32)
             
@@ -245,7 +240,9 @@ if __name__ == "__main__":
     # Path to the histogram data file
     histogram_path = "hists/histogram_counts.npy"
     # Path to the histology data file
-    histology_data_path = "histology_data/kits.json"
+    histology_data_path = "histology_data/kits23_histology_data.json"
+    # Path to the label mapping file
+    label_mapping_path = "segmentation/labels.json"
 
     # Create an instance of the preprocessor
     preprocessor = KidneyDatasetPreprocessor(dataset_path, histogram_path, histology_data_path)
@@ -258,17 +255,3 @@ if __name__ == "__main__":
     shutil.copy(script_name, OUTPUT_FOLDER)
 
 
-## Classification table
-#classification_table = {
-#    "multilocular_cystic_rcc": "MALIGN",
-#    "oncocytoma": "BENIGN",
-#    "clear_cell_papillary_rcc": "MALIGN",
-#    "collecting_duct_undefined": "MALIGN",
-#    "angiomyolipoma": "BENIGN",
-#    "spindle_cell_neoplasm": "MALIGN",
-#    "mest": "MALIGN",
-#    "chromophobe": "MALIGN",
-#    "papillary": "MALIGN",
-#    "rcc_unclassified": "MALIGN",
-#    "clear_cell_rcc": "MALIGN"
-#}
