@@ -2,8 +2,8 @@ import os
 import nibabel as nib
 import numpy as np
 
-NII_IMG_PATH = "dataset_histology_preprocessed/case_00002/segmentation.nii.gz"
-OUTPUT_DIR = f"segmentation/test_multiple_seg/case_00002"
+NII_IMG_PATH = "dataset_histology_preprocessed/case_00000/segmentation.nii.gz"
+OUTPUT_DIR = f"segmentation/test_multiple_seg/case_00000"
 
 print("Loading: ", NII_IMG_PATH)
 

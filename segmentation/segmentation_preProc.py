@@ -10,7 +10,7 @@ from scipy.stats import norm
 
 from segmentation.resample_image import resample_image
 from segmentation.convert_npy_to_nii_gz import convert_npy_to_nii_gz
-from segmentation.convert_4d_to_3d import convert_4d_to_3d
+from segmentation.convert_4d_to_3d import *
 
 # Resolve paths
 import sys
@@ -119,7 +119,10 @@ class KidneyDatasetPreprocessor:
             convert_npy_to_nii_gz(self.cropped_segmentation, os.path.join(output_folder, "segmentation.nii.gz"))
 
             # Convert 4D NIfTI images to 3D NIfTI images
-            convert_4d_to_3d(os.path.join(output_folder, "imaging.nii.gz"))
+            output_imaging_path = os.path.join(output_folder, "imaging.nii.gz")
+            output_segmentation_path = os.path.join(output_folder, "segmentation.nii.gz")
+            convert_4d_to_3d(output_imaging_path, output_imaging_path)
+            convert_4d_to_3d_integer(output_segmentation_path, output_segmentation_path)
 
     def __init__(self, source_folder, histogram_path, histology_data_path, label_mapping_path):
         """
