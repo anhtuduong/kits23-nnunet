@@ -122,9 +122,10 @@ class KidneyDatasetPreprocessor:
             output_imaging_path = os.path.join(output_folder, "imaging.nii.gz")
             output_segmentation_path = os.path.join(output_folder, "segmentation.nii.gz")
             convert_4d_to_3d(output_imaging_path, output_imaging_path)
-            convert_4d_to_3d_integer(output_segmentation_path, output_segmentation_path)
+            if self.dataset_preprocessor.histology_enable:
+                convert_4d_to_3d_integer(output_segmentation_path, output_segmentation_path)
 
-    def __init__(self, source_folder, histogram_path, histology_data_path, label_mapping_path):
+    def __init__(self, source_folder, histogram_path, histology_data_path, label_mapping_path, histology_enable):
         """
         Constructor of class KidneyDatasetPreprocessor
         Args:
@@ -140,6 +141,7 @@ class KidneyDatasetPreprocessor:
         self.histogram_path = histogram_path
         self.histology_data_path = histology_data_path
         self.label_mapping_path = label_mapping_path
+        self.histology_enable = histology_enable
 
         print("source_folder: " + source_folder)
         print("histogram_path: " + histogram_path)
@@ -211,7 +213,10 @@ class KidneyDatasetPreprocessor:
                 case_processor.resample_data()
                 case_processor.range_normalize()
                 case_processor.crop_data()
-                case_processor.add_histology_data()
+
+                if self.histology_enable:
+                    case_processor.add_histology_data()
+                
                 case_processor.save_data()
 
                 print(f"Processed case: {count}/{len(self.case_ids_to_process)}")
@@ -220,13 +225,30 @@ class KidneyDatasetPreprocessor:
 
 # Usage example
 if __name__ == "__main__":
-    SOURCE_FOLDER = "dataset"
-    HISTOGRAM_PATH = "hists/histogram_counts.npy"
-    HISTOLOGY_DATA_PATH = "histology_data/kits23_histology_data.json"
-    LABEL_MAPPING_PATH = "segmentation/labels.json"
-    OUTPUT_FOLDER = "dataset_histology_preprocessed"
+
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('input_dataset_path', type=str,
+                        help="Input dataset path to run preprocessing")
+    parser.add_argument('output_dataset_path', type=str,
+                        help="Output path to store processed dataset")
+    parser.add_argument('--histology', action='store_true', required=False,
+                        help='Add histologic labels read from histology_data/kits23_histology_data.json')
+    parser.add_argument('--histology_data', type=str, required=False, default='histology_data/kits23_histology_data.json',
+                        help='Path to histology data. Default = histology_data/kits23_histology_data.json')
+    args = parser.parse_args()
+
+    
+    SOURCE_FOLDER = args.input_dataset_path
+    OUTPUT_FOLDER = args.output_dataset_path
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     LOG_FILE_PATH = os.path.join(OUTPUT_FOLDER, "preprocessing_" + datetime.now().strftime("%Y_%m_%d_%H_%M") + ".log")
+    
+    HISTOGRAM_PATH = "hists/histogram_counts.npy"
+    LABEL_MAPPING_PATH = "segmentation/labels.json"
 
-    preprocessor = KidneyDatasetPreprocessor(SOURCE_FOLDER, HISTOGRAM_PATH, HISTOLOGY_DATA_PATH, LABEL_MAPPING_PATH)
+    HISTOLOGY_ENABLE = args.histology
+    HISTOLOGY_DATA_PATH = args.histology_data
+
+    preprocessor = KidneyDatasetPreprocessor(SOURCE_FOLDER, HISTOGRAM_PATH, HISTOLOGY_DATA_PATH, LABEL_MAPPING_PATH, histology_enable=HISTOLOGY_ENABLE)
     preprocessor.process_cases()
