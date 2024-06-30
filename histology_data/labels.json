@@ -1,0 +1,9 @@
+
+{
+    "labels": {
+        "background": 0,
+        "kidney": [1, 2, 3],
+        "masses": [2, 3],
+        "tumor": 2
+    }
+}

@@ -33,3 +33,5 @@ Building on the foundation of the KiTS 2023 challenge, this thesis proposal seek
 - The effectiveness of introducing histology-specific lesion segmentation will be evaluated through a series of performance metrics, such as accuracy, precision, recall, and the Dice coefficient, comparing the outcomes against the original segmentation task.
 
 - Further exploration will be considered to enhance the nnUNet framework based on initial findings, including potential modifications to the network architecture, preprocessing, and data augmentation steps to improve segmentation accuracy and specificity for histology-specific lesions.
+
+<img src="overall-framework.png">

@@ -2,12 +2,17 @@ import json
 import matplotlib.pyplot as plt
 
 # Define the path to the JSON file
-json_path = "histology_data/kits.json"
+# json_path = "histology_data/kits.json"
 # json_path = "histology_data/kits23_histology_data.json"
+json_path = "histology_data/kits23_histology_data_selected.json"
 
 # Define the path to the output text file
-output_path = "histology_data/tumor_subtype.txt"
+# output_path = "histology_data/tumor_subtype.txt"
 # output_path = "histology_data/tumor_subtype_minimal.txt"
+output_path = "histology_data/tumor_subtype_selected.txt"
+
+# graph_output_path = "histology_data/tumor_subtype_distribution.png"
+graph_output_path = "histology_data/tumor_subtype_distribution_selected.png"
 
 # Initialize an empty list to store subtypes
 tumor_subtypes = []
@@ -64,7 +69,6 @@ plt.tight_layout()
 plt.show()
 
 # Save graph to image file
-graph_output_path = "histology_data/tumor_subtype_distribution.png"
 plt.savefig(graph_output_path)
 
 print(f"Graph saved to: {graph_output_path}")

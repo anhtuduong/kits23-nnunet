@@ -232,10 +232,12 @@ if __name__ == "__main__":
                         help="Input dataset path to run preprocessing")
     parser.add_argument('output_dataset_path', type=str,
                         help="Output path to store processed dataset")
-    parser.add_argument('--histology', action='store_true', required=False,
-                        help='Add histologic labels read from histology_data/kits23_histology_data.json')
+    parser.add_argument('--enable_histology', action='store_true', required=False,
+                        help='Add histologic labels read from histology_data/kits23_histology_data_selected.json')
     parser.add_argument('--histology_data', type=str, required=False, default='histology_data/kits23_histology_data.json',
                         help='Path to histology data. Default = histology_data/kits23_histology_data.json')
+    parser.add_argument('--labels', type=str, required=False, default='histology_data/labels_selected.json',
+                        help='Path to label map. Default = histology_data/labels_selected.json')
     args = parser.parse_args()
 
     
@@ -245,10 +247,10 @@ if __name__ == "__main__":
     LOG_FILE_PATH = os.path.join(OUTPUT_FOLDER, "preprocessing_" + datetime.now().strftime("%Y_%m_%d_%H_%M") + ".log")
     
     HISTOGRAM_PATH = "hists/histogram_counts.npy"
-    LABEL_MAPPING_PATH = "segmentation/labels.json"
 
-    HISTOLOGY_ENABLE = args.histology
+    HISTOLOGY_ENABLE = args.enable_histology
     HISTOLOGY_DATA_PATH = args.histology_data
+    LABEL_MAPPING_PATH = args.labels
 
     preprocessor = KidneyDatasetPreprocessor(SOURCE_FOLDER, HISTOGRAM_PATH, HISTOLOGY_DATA_PATH, LABEL_MAPPING_PATH, histology_enable=HISTOLOGY_ENABLE)
     preprocessor.process_cases()
