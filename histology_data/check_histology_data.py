@@ -4,15 +4,18 @@ import matplotlib.pyplot as plt
 # Define the path to the JSON file
 # json_path = "histology_data/kits.json"
 # json_path = "histology_data/kits23_histology_data.json"
-json_path = "histology_data/kits23_histology_data_selected.json"
+# json_path = "histology_data/kits23_histology_data_selected.json"
+json_path = "histology_data/kits23_histology_data_selected_2.json"
 
 # Define the path to the output text file
 # output_path = "histology_data/tumor_subtype.txt"
 # output_path = "histology_data/tumor_subtype_minimal.txt"
-output_path = "histology_data/tumor_subtype_selected.txt"
+# output_path = "histology_data/tumor_subtype_selected.txt"
+output_path = "histology_data/tumor_subtype_selected_2.txt"
 
 # graph_output_path = "histology_data/tumor_subtype_distribution.png"
-graph_output_path = "histology_data/tumor_subtype_distribution_selected.png"
+# graph_output_path = "histology_data/tumor_subtype_distribution_selected.png"
+graph_output_path = "histology_data/tumor_subtype_distribution_selected_2.png"
 
 # Initialize an empty list to store subtypes
 tumor_subtypes = []
@@ -60,7 +63,7 @@ plt.figure(figsize=(12, 6))
 plt.bar(subtypes, counts, color='skyblue')
 plt.xlabel('Tumor Subtypes')
 plt.ylabel('Number of Cases')
-plt.title('Distribution of Tumor Subtypes')
+plt.title('Distribution of selected Tumor Subtypes')
 plt.xticks(rotation=45, ha='right')
 # Display the counts on top of the bars
 for i, count in enumerate(counts):

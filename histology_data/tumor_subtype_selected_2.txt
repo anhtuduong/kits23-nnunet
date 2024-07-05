@@ -1,0 +1,4 @@
+chromophobe: 27 cases
+clear_cell_rcc: 204 cases
+oncocytoma: 16 cases
+papillary: 28 cases
