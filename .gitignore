@@ -11,8 +11,7 @@ dataset/*/raw
 venv*/
 
 # Segmentation results
-segmentation/test_multiple_seg
-segmentation/results/
+segmentation/visualize_segmentation
 
 # DEFAULTS BELOW ==============================================================
 
