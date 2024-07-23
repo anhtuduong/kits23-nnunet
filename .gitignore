@@ -1,5 +1,7 @@
 *nii.gz
 
+*.pth
+
 nnUNet_results/
 nnUNet_preprocessed/
 nnUNet_raw/

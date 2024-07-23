@@ -1,0 +1,4266 @@
+{
+    "foreground_mean": {
+        "Dice": 0.40418650882177765,
+        "FN": 12397.062337662337,
+        "FP": 16061.314285714285,
+        "IoU": 0.35948139284373726,
+        "TN": 17975145.44935065,
+        "TP": 88637.11948051947,
+        "n_pred": 104698.43376623376,
+        "n_ref": 101034.18181818184
+    },
+    "mean": {
+        "(1, 2, 3, 4, 5, 6, 7)": {
+            "Dice": 0.9520214910102411,
+            "FN": 14688.181818181818,
+            "FP": 31391.52727272727,
+            "IoU": 0.9092215370426061,
+            "TN": 17621321.29090909,
+            "TP": 424839.94545454544,
+            "n_pred": 456231.4727272727,
+            "n_ref": 439528.12727272726
+        },
+        "(2, 3, 4, 5, 6, 7)": {
+            "Dice": 0.8211620563808273,
+            "FN": 7549.4,
+            "FP": 11778.90909090909,
+            "IoU": 0.7170962193613861,
+            "TN": 17987527.90909091,
+            "TP": 85384.72727272728,
+            "n_pred": 97163.63636363637,
+            "n_ref": 92934.12727272727
+        },
+        "(2, 4, 5, 6, 7)": {
+            "Dice": 0.8175111034679806,
+            "FN": 6822.054545454545,
+            "FP": 10600.036363636364,
+            "IoU": 0.715260488875469,
+            "TN": 17994252.4,
+            "TP": 80566.45454545454,
+            "n_pred": 91166.4909090909,
+            "n_ref": 87388.5090909091
+        },
+        "4": {
+            "Dice": 0.15303767830766146,
+            "FN": 31229.036363636365,
+            "FP": 18590.636363636364,
+            "IoU": 0.10660484340164296,
+            "TN": 18014531.70909091,
+            "TP": 27889.563636363637,
+            "n_pred": 46480.2,
+            "n_ref": 59118.6
+        },
+        "5": {
+            "Dice": 0.011832250454372339,
+            "FN": 9737.236363636364,
+            "FP": 25248.363636363636,
+            "IoU": 0.00650343943556531,
+            "TN": 18055832.8,
+            "TP": 1422.5454545454545,
+            "n_pred": 26670.909090909092,
+            "n_ref": 11159.781818181818
+        },
+        "6": {
+            "Dice": 0.0007524760676245931,
+            "FN": 3072.490909090909,
+            "FP": 159.34545454545454,
+            "IoU": 0.0003791519353178721,
+            "TN": 18089001.527272727,
+            "TP": 7.581818181818182,
+            "n_pred": 166.92727272727274,
+            "n_ref": 3080.072727272727
+        },
+        "7": {
+            "Dice": 0.07298850606373568,
+            "FN": 13681.036363636364,
+            "FP": 14660.381818181819,
+            "IoU": 0.061304069854173734,
+            "TN": 18063550.509090908,
+            "TP": 349.0181818181818,
+            "n_pred": 15009.4,
+            "n_ref": 14030.054545454546
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9570012382043729,
+                    "FN": 9453,
+                    "FP": 18502,
+                    "IoU": 0.9175478181362356,
+                    "TN": 9863355,
+                    "TP": 311090,
+                    "n_pred": 329592,
+                    "n_ref": 320543
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7193468161982075,
+                    "FN": 5880,
+                    "FP": 101,
+                    "IoU": 0.5617030631686941,
+                    "TN": 10188754,
+                    "TP": 7665,
+                    "n_pred": 7766,
+                    "n_ref": 13545
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.6705061252379325,
+                    "FN": 6676,
+                    "FP": 75,
+                    "IoU": 0.5043318649045522,
+                    "TN": 10188780,
+                    "TP": 6869,
+                    "n_pred": 6944,
+                    "n_ref": 13545
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 878,
+                    "IoU": 0.0,
+                    "TN": 10201522,
+                    "TP": 0,
+                    "n_pred": 878,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.024070021881838075,
+                    "FN": 13380,
+                    "FP": 0,
+                    "IoU": 0.012181616832779624,
+                    "TN": 10188855,
+                    "TP": 165,
+                    "n_pred": 165,
+                    "n_ref": 13545
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30,
+                    "IoU": 0.0,
+                    "TN": 10202370,
+                    "TP": 0,
+                    "n_pred": 30,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 5268,
+                    "IoU": 0.0,
+                    "TN": 10197132,
+                    "TP": 0,
+                    "n_pred": 5268,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00010.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00010.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9684518648474265,
+                    "FN": 15424,
+                    "FP": 7899,
+                    "IoU": 0.9388334211899723,
+                    "TN": 15240197,
+                    "TP": 357980,
+                    "n_pred": 365879,
+                    "n_ref": 373404
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9272578990292284,
+                    "FN": 3607,
+                    "FP": 1923,
+                    "IoU": 0.8643810084363351,
+                    "TN": 15580724,
+                    "TP": 35246,
+                    "n_pred": 37169,
+                    "n_ref": 38853
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9264552293068574,
+                    "FN": 3814,
+                    "FP": 1749,
+                    "IoU": 0.862987044973154,
+                    "TN": 15580898,
+                    "TP": 35039,
+                    "n_pred": 36788,
+                    "n_ref": 38853
+                },
+                "4": {
+                    "Dice": 0.1023184518106917,
+                    "FN": 36717,
+                    "FP": 763,
+                    "IoU": 0.05391760904684976,
+                    "TN": 15581884,
+                    "TP": 2136,
+                    "n_pred": 2899,
+                    "n_ref": 38853
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2121,
+                    "IoU": 0.0,
+                    "TN": 15619379,
+                    "TP": 0,
+                    "n_pred": 2121,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 677,
+                    "IoU": 0.0,
+                    "TN": 15620823,
+                    "TP": 0,
+                    "n_pred": 677,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30406,
+                    "IoU": 0.0,
+                    "TN": 15591094,
+                    "TP": 0,
+                    "n_pred": 30406,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00016.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00016.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9552753227988028,
+                    "FN": 11995,
+                    "FP": 20939,
+                    "IoU": 0.9143799736385781,
+                    "TN": 17444723,
+                    "TP": 351719,
+                    "n_pred": 372658,
+                    "n_ref": 363714
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.30832107242112144,
+                    "FN": 3630,
+                    "FP": 601,
+                    "IoU": 0.1822574410514109,
+                    "TN": 17824202,
+                    "TP": 943,
+                    "n_pred": 1544,
+                    "n_ref": 4573
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.2871580414706395,
+                    "FN": 3695,
+                    "FP": 396,
+                    "IoU": 0.1676500508646999,
+                    "TN": 17824461,
+                    "TP": 824,
+                    "n_pred": 1220,
+                    "n_ref": 4519
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 59,
+                    "IoU": 0.0,
+                    "TN": 17829317,
+                    "TP": 0,
+                    "n_pred": 59,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 17829376,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0030932390631904553,
+                    "FN": 4512,
+                    "FP": 0,
+                    "IoU": 0.001549015268864793,
+                    "TN": 17824857,
+                    "TP": 7,
+                    "n_pred": 7,
+                    "n_ref": 4519
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1046,
+                    "IoU": 0.0,
+                    "TN": 17828330,
+                    "TP": 0,
+                    "n_pred": 1046,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00020.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00020.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9638269147369501,
+                    "FN": 6156,
+                    "FP": 17449,
+                    "IoU": 0.930179454036163,
+                    "TN": 18306391,
+                    "TP": 314476,
+                    "n_pred": 331925,
+                    "n_ref": 320632
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7065906719113751,
+                    "FN": 2695,
+                    "FP": 960,
+                    "IoU": 0.5463008937437934,
+                    "TN": 18636416,
+                    "TP": 4401,
+                    "n_pred": 5361,
+                    "n_ref": 7096
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7103635913925302,
+                    "FN": 2788,
+                    "FP": 725,
+                    "IoU": 0.5508247027234369,
+                    "TN": 18636651,
+                    "TP": 4308,
+                    "n_pred": 5033,
+                    "n_ref": 7096
+                },
+                "4": {
+                    "Dice": 0.13215630273919252,
+                    "FN": 6587,
+                    "FP": 98,
+                    "IoU": 0.07075340561579094,
+                    "TN": 18637278,
+                    "TP": 509,
+                    "n_pred": 607,
+                    "n_ref": 7096
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 54,
+                    "IoU": 0.0,
+                    "TN": 18644418,
+                    "TP": 0,
+                    "n_pred": 54,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 87,
+                    "IoU": 0.0,
+                    "TN": 18644385,
+                    "TP": 0,
+                    "n_pred": 87,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4121,
+                    "IoU": 0.0,
+                    "TN": 18640351,
+                    "TP": 0,
+                    "n_pred": 4121,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00022.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00022.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9695642441161526,
+                    "FN": 12363,
+                    "FP": 13334,
+                    "IoU": 0.9409264367816091,
+                    "TN": 18014418,
+                    "TP": 409303,
+                    "n_pred": 422637,
+                    "n_ref": 421666
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.650865998176846,
+                    "FN": 2406,
+                    "FP": 275,
+                    "IoU": 0.48243243243243245,
+                    "TN": 18444238,
+                    "TP": 2499,
+                    "n_pred": 2774,
+                    "n_ref": 4905
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.6295685627919758,
+                    "FN": 2614,
+                    "FP": 82,
+                    "IoU": 0.45939442550631643,
+                    "TN": 18444431,
+                    "TP": 2291,
+                    "n_pred": 2373,
+                    "n_ref": 4905
+                },
+                "4": {
+                    "Dice": 0.0680165126793788,
+                    "FN": 4732,
+                    "FP": 9,
+                    "IoU": 0.0352055352055352,
+                    "TN": 18444504,
+                    "TP": 173,
+                    "n_pred": 182,
+                    "n_ref": 4905
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 18449417,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 8,
+                    "IoU": 0.0,
+                    "TN": 18449410,
+                    "TP": 0,
+                    "n_pred": 8,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2088,
+                    "IoU": 0.0,
+                    "TN": 18447330,
+                    "TP": 0,
+                    "n_pred": 2088,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00033.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00033.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9638712667502952,
+                    "FN": 31368,
+                    "FP": 10883,
+                    "IoU": 0.9302620763418249,
+                    "TN": 19591421,
+                    "TP": 563603,
+                    "n_pred": 574486,
+                    "n_ref": 594971
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.882336085857928,
+                    "FN": 8839,
+                    "FP": 9229,
+                    "IoU": 0.7894466974315947,
+                    "TN": 20111463,
+                    "TP": 67744,
+                    "n_pred": 76973,
+                    "n_ref": 76583
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8856241372510353,
+                    "FN": 9218,
+                    "FP": 8182,
+                    "IoU": 0.7947265970624668,
+                    "TN": 20112510,
+                    "TP": 67365,
+                    "n_pred": 75547,
+                    "n_ref": 76583
+                },
+                "4": {
+                    "Dice": 0.10830925800430384,
+                    "FN": 72028,
+                    "FP": 2973,
+                    "IoU": 0.057255266730353464,
+                    "TN": 20117719,
+                    "TP": 4555,
+                    "n_pred": 7528,
+                    "n_ref": 76583
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 23707,
+                    "IoU": 0.0,
+                    "TN": 20173568,
+                    "TP": 0,
+                    "n_pred": 23707,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 984,
+                    "IoU": 0.0,
+                    "TN": 20196291,
+                    "TP": 0,
+                    "n_pred": 984,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 41849,
+                    "IoU": 0.0,
+                    "TN": 20155426,
+                    "TP": 0,
+                    "n_pred": 41849,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00036.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00036.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9683478334448726,
+                    "FN": 14153,
+                    "FP": 18765,
+                    "IoU": 0.93863790998313,
+                    "TN": 12358265,
+                    "TP": 503537,
+                    "n_pred": 522302,
+                    "n_ref": 517690
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.955901435623511,
+                    "FN": 3138,
+                    "FP": 3285,
+                    "IoU": 0.9155279666478162,
+                    "TN": 12818683,
+                    "TP": 69614,
+                    "n_pred": 72899,
+                    "n_ref": 72752
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9327833988528711,
+                    "FN": 7619,
+                    "FP": 1768,
+                    "IoU": 0.8740338164251208,
+                    "TN": 12820200,
+                    "TP": 65133,
+                    "n_pred": 66901,
+                    "n_ref": 72752
+                },
+                "4": {
+                    "Dice": 0.10695283614392641,
+                    "FN": 68601,
+                    "FP": 720,
+                    "IoU": 0.056497713414634144,
+                    "TN": 12821248,
+                    "TP": 4151,
+                    "n_pred": 4871,
+                    "n_ref": 72752
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2963,
+                    "IoU": 0.0,
+                    "TN": 12891757,
+                    "TP": 0,
+                    "n_pred": 2963,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 12894719,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 54516,
+                    "IoU": 0.0,
+                    "TN": 12840204,
+                    "TP": 0,
+                    "n_pred": 54516,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00038.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00038.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9323913996648049,
+                    "FN": 7205,
+                    "FP": 25793,
+                    "IoU": 0.8733457180581571,
+                    "TN": 12017849,
+                    "TP": 227538,
+                    "n_pred": 253331,
+                    "n_ref": 234743
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9097224399205001,
+                    "FN": 6117,
+                    "FP": 8282,
+                    "IoU": 0.8343952707365322,
+                    "TN": 12191437,
+                    "TP": 72549,
+                    "n_pred": 80831,
+                    "n_ref": 78666
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7843404379989746,
+                    "FN": 5535,
+                    "FP": 23909,
+                    "IoU": 0.6451974405629798,
+                    "TN": 12195398,
+                    "TP": 53543,
+                    "n_pred": 77452,
+                    "n_ref": 59078
+                },
+                "4": {
+                    "Dice": 0.12557242709086527,
+                    "FN": 54910,
+                    "FP": 3138,
+                    "IoU": 0.06699241352706699,
+                    "TN": 12216169,
+                    "TP": 4168,
+                    "n_pred": 7306,
+                    "n_ref": 59078
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30365,
+                    "IoU": 0.0,
+                    "TN": 12248020,
+                    "TP": 0,
+                    "n_pred": 30365,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 94,
+                    "IoU": 0.0,
+                    "TN": 12278291,
+                    "TP": 0,
+                    "n_pred": 94,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 37392,
+                    "IoU": 0.0,
+                    "TN": 12240993,
+                    "TP": 0,
+                    "n_pred": 37392,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00045.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00045.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9710698528323117,
+                    "FN": 6714,
+                    "FP": 19665,
+                    "IoU": 0.9437665477149764,
+                    "TN": 16797606,
+                    "TP": 442719,
+                    "n_pred": 462384,
+                    "n_ref": 449433
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8817692767483563,
+                    "FN": 281,
+                    "FP": 3675,
+                    "IoU": 0.788539662176609,
+                    "TN": 17247996,
+                    "TP": 14752,
+                    "n_pred": 18427,
+                    "n_ref": 15033
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8863451025400948,
+                    "FN": 360,
+                    "FP": 3403,
+                    "IoU": 0.7958884790627034,
+                    "TN": 17248268,
+                    "TP": 14673,
+                    "n_pred": 18076,
+                    "n_ref": 15033
+                },
+                "4": {
+                    "Dice": 0.06919374247894103,
+                    "FN": 14458,
+                    "FP": 1012,
+                    "IoU": 0.035836709255219694,
+                    "TN": 17250659,
+                    "TP": 575,
+                    "n_pred": 1587,
+                    "n_ref": 15033
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 733,
+                    "IoU": 0.0,
+                    "TN": 17265971,
+                    "TP": 0,
+                    "n_pred": 733,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 319,
+                    "IoU": 0.0,
+                    "TN": 17266385,
+                    "TP": 0,
+                    "n_pred": 319,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 15121,
+                    "IoU": 0.0,
+                    "TN": 17251583,
+                    "TP": 0,
+                    "n_pred": 15121,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00052.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00052.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9563409907009355,
+                    "FN": 18007,
+                    "FP": 50676,
+                    "IoU": 0.9163347244453215,
+                    "TN": 23656410,
+                    "TP": 752243,
+                    "n_pred": 802919,
+                    "n_ref": 770250
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9335844683337896,
+                    "FN": 44656,
+                    "FP": 15747,
+                    "IoU": 0.8754415522016262,
+                    "TN": 23992399,
+                    "TP": 424534,
+                    "n_pred": 440281,
+                    "n_ref": 469190
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9301035138993479,
+                    "FN": 48633,
+                    "FP": 14576,
+                    "IoU": 0.8693397220970469,
+                    "TN": 23993570,
+                    "TP": 420557,
+                    "n_pred": 435133,
+                    "n_ref": 469190
+                },
+                "4": {
+                    "Dice": 0.9016303247495262,
+                    "FN": 75068,
+                    "FP": 10931,
+                    "IoU": 0.820880569689724,
+                    "TN": 23997215,
+                    "TP": 394122,
+                    "n_pred": 405053,
+                    "n_ref": 469190
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 18055,
+                    "IoU": 0.0,
+                    "TN": 24459281,
+                    "TP": 0,
+                    "n_pred": 18055,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 24477336,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 24477336,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00055.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00055.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9056835855817933,
+                    "FN": 22170,
+                    "FP": 115850,
+                    "IoU": 0.827624966279337,
+                    "TN": 27589624,
+                    "TP": 662676,
+                    "n_pred": 778526,
+                    "n_ref": 684846
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8118124728657996,
+                    "FN": 5447,
+                    "FP": 56105,
+                    "IoU": 0.6832359828114145,
+                    "TN": 28196005,
+                    "TP": 132763,
+                    "n_pred": 188868,
+                    "n_ref": 138210
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8376587330827991,
+                    "FN": 4314,
+                    "FP": 28733,
+                    "IoU": 0.7206650550267949,
+                    "TN": 28272014,
+                    "TP": 85259,
+                    "n_pred": 113992,
+                    "n_ref": 89573
+                },
+                "4": {
+                    "Dice": 0.078620911873691,
+                    "FN": 85669,
+                    "FP": 5835,
+                    "IoU": 0.040919000503102466,
+                    "TN": 28294912,
+                    "TP": 3904,
+                    "n_pred": 9739,
+                    "n_ref": 89573
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 46291,
+                    "IoU": 0.0,
+                    "TN": 28344029,
+                    "TP": 0,
+                    "n_pred": 46291,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 26,
+                    "IoU": 0.0,
+                    "TN": 28390294,
+                    "TP": 0,
+                    "n_pred": 26,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 46843,
+                    "IoU": 0.0,
+                    "TN": 28343477,
+                    "TP": 0,
+                    "n_pred": 46843,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00058.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00058.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9453182786910161,
+                    "FN": 17081,
+                    "FP": 15299,
+                    "IoU": 0.8963066862652794,
+                    "TN": 16338183,
+                    "TP": 279887,
+                    "n_pred": 295186,
+                    "n_ref": 296968
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8944185360429361,
+                    "FN": 4265,
+                    "FP": 5040,
+                    "IoU": 0.8090028326285972,
+                    "TN": 16601732,
+                    "TP": 39413,
+                    "n_pred": 44453,
+                    "n_ref": 43678
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7970675733106672,
+                    "FN": 2576,
+                    "FP": 12704,
+                    "IoU": 0.6626037802508391,
+                    "TN": 16605162,
+                    "TP": 30008,
+                    "n_pred": 42712,
+                    "n_ref": 32584
+                },
+                "4": {
+                    "Dice": 0.1173222535057267,
+                    "FN": 30438,
+                    "FP": 1853,
+                    "IoU": 0.062316694253274095,
+                    "TN": 16616013,
+                    "TP": 2146,
+                    "n_pred": 3999,
+                    "n_ref": 32584
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3540,
+                    "IoU": 0.0,
+                    "TN": 16646910,
+                    "TP": 0,
+                    "n_pred": 3540,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 421,
+                    "IoU": 0.0,
+                    "TN": 16650029,
+                    "TP": 0,
+                    "n_pred": 421,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 33822,
+                    "IoU": 0.0,
+                    "TN": 16616628,
+                    "TP": 0,
+                    "n_pred": 33822,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00060.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00060.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9693376817336706,
+                    "FN": 12940,
+                    "FP": 15228,
+                    "IoU": 0.9404997782049387,
+                    "TN": 17845450,
+                    "TP": 445242,
+                    "n_pred": 460470,
+                    "n_ref": 458182
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7125129265770423,
+                    "FN": 9436,
+                    "FP": 572,
+                    "IoU": 0.5534136546184739,
+                    "TN": 18296450,
+                    "TP": 12402,
+                    "n_pred": 12974,
+                    "n_ref": 21838
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7638220563684572,
+                    "FN": 3380,
+                    "FP": 1430,
+                    "IoU": 0.6178900540197013,
+                    "TN": 18306272,
+                    "TP": 7778,
+                    "n_pred": 9208,
+                    "n_ref": 11158
+                },
+                "4": {
+                    "Dice": 0.144993870044953,
+                    "FN": 10271,
+                    "FP": 190,
+                    "IoU": 0.07816355304899542,
+                    "TN": 18307512,
+                    "TP": 887,
+                    "n_pred": 1077,
+                    "n_ref": 11158
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 159,
+                    "IoU": 0.0,
+                    "TN": 18318701,
+                    "TP": 0,
+                    "n_pred": 159,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 105,
+                    "IoU": 0.0,
+                    "TN": 18318755,
+                    "TP": 0,
+                    "n_pred": 105,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 7542,
+                    "IoU": 0.0,
+                    "TN": 18311318,
+                    "TP": 0,
+                    "n_pred": 7542,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00063.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00063.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8879283049073465,
+                    "FN": 33179,
+                    "FP": 175298,
+                    "IoU": 0.7984451981159073,
+                    "TN": 26913088,
+                    "TP": 825867,
+                    "n_pred": 1001165,
+                    "n_ref": 859046
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8722918858099473,
+                    "FN": 74301,
+                    "FP": 28532,
+                    "IoU": 0.7735085655887548,
+                    "TN": 27493406,
+                    "TP": 351193,
+                    "n_pred": 379725,
+                    "n_ref": 425494
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8622528419245965,
+                    "FN": 80779,
+                    "FP": 22110,
+                    "IoU": 0.7578598072555688,
+                    "TN": 27522517,
+                    "TP": 322026,
+                    "n_pred": 344136,
+                    "n_ref": 402805
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 256895,
+                    "IoU": 0.0,
+                    "TN": 27690537,
+                    "TP": 0,
+                    "n_pred": 256895,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.2748513277965754,
+                    "FN": 338470,
+                    "FP": 1004,
+                    "IoU": 0.1593203717599162,
+                    "TN": 27543623,
+                    "TP": 64335,
+                    "n_pred": 65339,
+                    "n_ref": 402805
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 27947432,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 5461,
+                    "IoU": 0.0,
+                    "TN": 27941971,
+                    "TP": 0,
+                    "n_pred": 5461,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00073.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00073.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9456860290584194,
+                    "FN": 9402,
+                    "FP": 27218,
+                    "IoU": 0.8969681282074368,
+                    "TN": 18842216,
+                    "TP": 318804,
+                    "n_pred": 346022,
+                    "n_ref": 328206
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7138263665594855,
+                    "FN": 2640,
+                    "FP": 920,
+                    "IoU": 0.555,
+                    "TN": 19189640,
+                    "TP": 4440,
+                    "n_pred": 5360,
+                    "n_ref": 7080
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7451147708848878,
+                    "FN": 2714,
+                    "FP": 273,
+                    "IoU": 0.5937712498300014,
+                    "TN": 19190287,
+                    "TP": 4366,
+                    "n_pred": 4639,
+                    "n_ref": 7080
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 530,
+                    "IoU": 0.0,
+                    "TN": 19197110,
+                    "TP": 0,
+                    "n_pred": 530,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 101,
+                    "IoU": 0.0,
+                    "TN": 19197539,
+                    "TP": 0,
+                    "n_pred": 101,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.01652892561983471,
+                    "FN": 7021,
+                    "FP": 0,
+                    "IoU": 0.008333333333333333,
+                    "TN": 19190560,
+                    "TP": 59,
+                    "n_pred": 59,
+                    "n_ref": 7080
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3798,
+                    "IoU": 0.0,
+                    "TN": 19193842,
+                    "TP": 0,
+                    "n_pred": 3798,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00077.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00077.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9434190060982311,
+                    "FN": 17943,
+                    "FP": 50011,
+                    "IoU": 0.8928979524933055,
+                    "TN": 16506060,
+                    "TP": 566525,
+                    "n_pred": 616536,
+                    "n_ref": 584468
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8993007825678545,
+                    "FN": 3410,
+                    "FP": 72703,
+                    "IoU": 0.8170268210654865,
+                    "TN": 16724560,
+                    "TP": 339866,
+                    "n_pred": 412569,
+                    "n_ref": 343276
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9006206156836385,
+                    "FN": 3629,
+                    "FP": 71328,
+                    "IoU": 0.8192082083144399,
+                    "TN": 16725935,
+                    "TP": 339647,
+                    "n_pred": 410975,
+                    "n_ref": 343276
+                },
+                "4": {
+                    "Dice": 0.8981852949665086,
+                    "FN": 14952,
+                    "FP": 59483,
+                    "IoU": 0.8151872459709156,
+                    "TN": 16737780,
+                    "TP": 328324,
+                    "n_pred": 387807,
+                    "n_ref": 343276
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 14036,
+                    "IoU": 0.0,
+                    "TN": 17126503,
+                    "TP": 0,
+                    "n_pred": 14036,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 17140539,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 17140539,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00079.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00079.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9500685166963873,
+                    "FN": 33735,
+                    "FP": 18990,
+                    "IoU": 0.9048862061998499,
+                    "TN": 16657919,
+                    "TP": 501611,
+                    "n_pred": 520601,
+                    "n_ref": 535346
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8092129869816488,
+                    "FN": 5319,
+                    "FP": 10494,
+                    "IoU": 0.6795614817216503,
+                    "TN": 17162907,
+                    "TP": 33535,
+                    "n_pred": 44029,
+                    "n_ref": 38854
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.4553753038646624,
+                    "FN": 1568,
+                    "FP": 20388,
+                    "IoU": 0.2948129115143729,
+                    "TN": 17181120,
+                    "TP": 9179,
+                    "n_pred": 29567,
+                    "n_ref": 10747
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2520,
+                    "IoU": 0.0,
+                    "TN": 17209735,
+                    "TP": 0,
+                    "n_pred": 2520,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 561,
+                    "IoU": 0.0,
+                    "TN": 17211694,
+                    "TP": 0,
+                    "n_pred": 561,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 55,
+                    "IoU": 0.0,
+                    "TN": 17212200,
+                    "TP": 0,
+                    "n_pred": 55,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.5005551335242213,
+                    "FN": 2181,
+                    "FP": 14913,
+                    "IoU": 0.3338269680436477,
+                    "TN": 17186595,
+                    "TP": 8566,
+                    "n_pred": 23479,
+                    "n_ref": 10747
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00094.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00094.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9477477225143721,
+                    "FN": 10931,
+                    "FP": 26380,
+                    "IoU": 0.9006848859277635,
+                    "TN": 20534625,
+                    "TP": 338372,
+                    "n_pred": 364752,
+                    "n_ref": 349303
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8844845630559917,
+                    "FN": 1575,
+                    "FP": 9021,
+                    "IoU": 0.7928931628943356,
+                    "TN": 20859146,
+                    "TP": 40566,
+                    "n_pred": 49587,
+                    "n_ref": 42141
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8877238104659214,
+                    "FN": 1758,
+                    "FP": 8457,
+                    "IoU": 0.7981145499822128,
+                    "TN": 20859710,
+                    "TP": 40383,
+                    "n_pred": 48840,
+                    "n_ref": 42141
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 5871,
+                    "IoU": 0.0,
+                    "TN": 20904437,
+                    "TP": 0,
+                    "n_pred": 5871,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 25512,
+                    "IoU": 0.0,
+                    "TN": 20884796,
+                    "TP": 0,
+                    "n_pred": 25512,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.016496686562955304,
+                    "FN": 41790,
+                    "FP": 62,
+                    "IoU": 0.008316944293059736,
+                    "TN": 20868105,
+                    "TP": 351,
+                    "n_pred": 413,
+                    "n_ref": 42141
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 16257,
+                    "IoU": 0.0,
+                    "TN": 20894051,
+                    "TP": 0,
+                    "n_pred": 16257,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00104.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00104.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9611543181833592,
+                    "FN": 10351,
+                    "FP": 12565,
+                    "IoU": 0.9252137588930226,
+                    "TN": 11834580,
+                    "TP": 283504,
+                    "n_pred": 296069,
+                    "n_ref": 293855
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9296484621133303,
+                    "FN": 10850,
+                    "FP": 3553,
+                    "IoU": 0.8685449865834292,
+                    "TN": 12031434,
+                    "TP": 95163,
+                    "n_pred": 98716,
+                    "n_ref": 106013
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9348570864392556,
+                    "FN": 11326,
+                    "FP": 1870,
+                    "IoU": 0.8776823039774571,
+                    "TN": 12033117,
+                    "TP": 94687,
+                    "n_pred": 96557,
+                    "n_ref": 106013
+                },
+                "4": {
+                    "Dice": 0.21748563923087794,
+                    "FN": 92932,
+                    "FP": 1199,
+                    "IoU": 0.12201059582882513,
+                    "TN": 12033788,
+                    "TP": 13081,
+                    "n_pred": 14280,
+                    "n_ref": 106013
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 71701,
+                    "IoU": 0.0,
+                    "TN": 12069299,
+                    "TP": 0,
+                    "n_pred": 71701,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 428,
+                    "IoU": 0.0,
+                    "TN": 12140572,
+                    "TP": 0,
+                    "n_pred": 428,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 8242,
+                    "IoU": 0.0,
+                    "TN": 12132758,
+                    "TP": 0,
+                    "n_pred": 8242,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00109.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00109.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9631855105329716,
+                    "FN": 21385,
+                    "FP": 7901,
+                    "IoU": 0.9289853877602487,
+                    "TN": 17176918,
+                    "TP": 383108,
+                    "n_pred": 391009,
+                    "n_ref": 404493
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8063624947676852,
+                    "FN": 1656,
+                    "FP": 657,
+                    "IoU": 0.6755505681021181,
+                    "TN": 17582183,
+                    "TP": 4816,
+                    "n_pred": 5473,
+                    "n_ref": 6472
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8596260737746336,
+                    "FN": 622,
+                    "FP": 767,
+                    "IoU": 0.7538107054236086,
+                    "TN": 17583670,
+                    "TP": 4253,
+                    "n_pred": 5020,
+                    "n_ref": 4875
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 521,
+                    "IoU": 0.0,
+                    "TN": 17588791,
+                    "TP": 0,
+                    "n_pred": 521,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 83,
+                    "IoU": 0.0,
+                    "TN": 17589229,
+                    "TP": 0,
+                    "n_pred": 83,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 52,
+                    "IoU": 0.0,
+                    "TN": 17589260,
+                    "TP": 0,
+                    "n_pred": 52,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.8343084225631968,
+                    "FN": 1096,
+                    "FP": 405,
+                    "IoU": 0.715719696969697,
+                    "TN": 17584032,
+                    "TP": 3779,
+                    "n_pred": 4184,
+                    "n_ref": 4875
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00124.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00124.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.97416963901748,
+                    "FN": 10561,
+                    "FP": 9861,
+                    "IoU": 0.9496400926215905,
+                    "TN": 15873049,
+                    "TP": 385099,
+                    "n_pred": 394960,
+                    "n_ref": 395660
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7962166613294295,
+                    "FN": 17514,
+                    "FP": 304,
+                    "IoU": 0.6614285442833526,
+                    "TN": 16225943,
+                    "TP": 34809,
+                    "n_pred": 35113,
+                    "n_ref": 52323
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7868281430219146,
+                    "FN": 18214,
+                    "FP": 268,
+                    "IoU": 0.6485710482782225,
+                    "TN": 16225979,
+                    "TP": 34109,
+                    "n_pred": 34377,
+                    "n_ref": 52323
+                },
+                "4": {
+                    "Dice": 0.18956953642384106,
+                    "FN": 46827,
+                    "FP": 165,
+                    "IoU": 0.10470964791952446,
+                    "TN": 16226082,
+                    "TP": 5496,
+                    "n_pred": 5661,
+                    "n_ref": 52323
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2602,
+                    "IoU": 0.0,
+                    "TN": 16275968,
+                    "TP": 0,
+                    "n_pred": 2602,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 555,
+                    "IoU": 0.0,
+                    "TN": 16278015,
+                    "TP": 0,
+                    "n_pred": 555,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 24152,
+                    "IoU": 0.0,
+                    "TN": 16254418,
+                    "TP": 0,
+                    "n_pred": 24152,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00131.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00131.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.971439268273945,
+                    "FN": 20570,
+                    "FP": 5825,
+                    "IoU": 0.9444646663145957,
+                    "TN": 16336636,
+                    "TP": 448888,
+                    "n_pred": 454713,
+                    "n_ref": 469458
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.648936170212766,
+                    "FN": 2290,
+                    "FP": 218,
+                    "IoU": 0.48031496062992124,
+                    "TN": 16807093,
+                    "TP": 2318,
+                    "n_pred": 2536,
+                    "n_ref": 4608
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.6344869459623558,
+                    "FN": 2241,
+                    "FP": 167,
+                    "IoU": 0.46465095598043576,
+                    "TN": 16807421,
+                    "TP": 2090,
+                    "n_pred": 2257,
+                    "n_ref": 4331
+                },
+                "4": {
+                    "Dice": 0.06299911268855368,
+                    "FN": 4189,
+                    "FP": 35,
+                    "IoU": 0.03252404947320202,
+                    "TN": 16807553,
+                    "TP": 142,
+                    "n_pred": 177,
+                    "n_ref": 4331
+                },
+                "5": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 16811919,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 32,
+                    "IoU": 0.0,
+                    "TN": 16811887,
+                    "TP": 0,
+                    "n_pred": 32,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1913,
+                    "IoU": 0.0,
+                    "TN": 16810006,
+                    "TP": 0,
+                    "n_pred": 1913,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00140.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00140.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9628456176684234,
+                    "FN": 27285,
+                    "FP": 6371,
+                    "IoU": 0.9283532269360871,
+                    "TN": 18763103,
+                    "TP": 436093,
+                    "n_pred": 442464,
+                    "n_ref": 463378
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.3502977371973005,
+                    "FN": 16021,
+                    "FP": 345,
+                    "IoU": 0.2123399749735297,
+                    "TN": 19212074,
+                    "TP": 4412,
+                    "n_pred": 4757,
+                    "n_ref": 20433
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8455471102825183,
+                    "FN": 795,
+                    "FP": 282,
+                    "IoU": 0.7324223602484472,
+                    "TN": 19228827,
+                    "TP": 2948,
+                    "n_pred": 3230,
+                    "n_ref": 3743
+                },
+                "4": {
+                    "Dice": 0.0802192326856004,
+                    "FN": 3582,
+                    "FP": 110,
+                    "IoU": 0.04178562159356346,
+                    "TN": 19228999,
+                    "TP": 161,
+                    "n_pred": 271,
+                    "n_ref": 3743
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 35,
+                    "IoU": 0.0,
+                    "TN": 19232817,
+                    "TP": 0,
+                    "n_pred": 35,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 31,
+                    "IoU": 0.0,
+                    "TN": 19232821,
+                    "TP": 0,
+                    "n_pred": 31,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2808,
+                    "IoU": 0.0,
+                    "TN": 19230044,
+                    "TP": 0,
+                    "n_pred": 2808,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00141.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00141.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9493620007221348,
+                    "FN": 13119,
+                    "FP": 24046,
+                    "IoU": 0.9036052392685774,
+                    "TN": 19544050,
+                    "TP": 348385,
+                    "n_pred": 372431,
+                    "n_ref": 361504
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8990460749566398,
+                    "FN": 7742,
+                    "FP": 2968,
+                    "IoU": 0.8166064487405607,
+                    "TN": 19871201,
+                    "TP": 47689,
+                    "n_pred": 50657,
+                    "n_ref": 55431
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9106575155242594,
+                    "FN": 5366,
+                    "FP": 3655,
+                    "IoU": 0.8359698887191795,
+                    "TN": 19874604,
+                    "TP": 45975,
+                    "n_pred": 49630,
+                    "n_ref": 51341
+                },
+                "4": {
+                    "Dice": 0.1774655666402016,
+                    "FN": 46200,
+                    "FP": 1456,
+                    "IoU": 0.0973729567967877,
+                    "TN": 19876803,
+                    "TP": 5141,
+                    "n_pred": 6597,
+                    "n_ref": 51341
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 37606,
+                    "IoU": 0.0,
+                    "TN": 19891994,
+                    "TP": 0,
+                    "n_pred": 37606,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 23,
+                    "IoU": 0.0,
+                    "TN": 19929577,
+                    "TP": 0,
+                    "n_pred": 23,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4289,
+                    "IoU": 0.0,
+                    "TN": 19925311,
+                    "TP": 0,
+                    "n_pred": 4289,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00143.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00143.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9663692647690189,
+                    "FN": 15026,
+                    "FP": 13644,
+                    "IoU": 0.934926982945286,
+                    "TN": 15434662,
+                    "TP": 411912,
+                    "n_pred": 425556,
+                    "n_ref": 426938
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8916443370286695,
+                    "FN": 3954,
+                    "FP": 2233,
+                    "IoU": 0.8044749233637771,
+                    "TN": 15843601,
+                    "TP": 25456,
+                    "n_pred": 27689,
+                    "n_ref": 29410
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8859734369938451,
+                    "FN": 4594,
+                    "FP": 1742,
+                    "IoU": 0.7952893282931085,
+                    "TN": 15844293,
+                    "TP": 24615,
+                    "n_pred": 26357,
+                    "n_ref": 29209
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2797,
+                    "IoU": 0.0,
+                    "TN": 15872447,
+                    "TP": 0,
+                    "n_pred": 2797,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.09116772274667012,
+                    "FN": 27799,
+                    "FP": 313,
+                    "IoU": 0.04776099180272339,
+                    "TN": 15845722,
+                    "TP": 1410,
+                    "n_pred": 1723,
+                    "n_ref": 29209
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 111,
+                    "IoU": 0.0,
+                    "TN": 15875133,
+                    "TP": 0,
+                    "n_pred": 111,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 20898,
+                    "IoU": 0.0,
+                    "TN": 15854346,
+                    "TP": 0,
+                    "n_pred": 20898,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00153.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00153.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9669993937397664,
+                    "FN": 8259,
+                    "FP": 12480,
+                    "IoU": 0.9361072857842639,
+                    "TN": 20899909,
+                    "TP": 303852,
+                    "n_pred": 316332,
+                    "n_ref": 312111
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8852901484480432,
+                    "FN": 157,
+                    "FP": 778,
+                    "IoU": 0.7941888619854721,
+                    "TN": 21219957,
+                    "TP": 3608,
+                    "n_pred": 4386,
+                    "n_ref": 3765
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8909680638722555,
+                    "FN": 145,
+                    "FP": 729,
+                    "IoU": 0.8033745781777278,
+                    "TN": 21220055,
+                    "TP": 3571,
+                    "n_pred": 4300,
+                    "n_ref": 3716
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 510,
+                    "IoU": 0.0,
+                    "TN": 21223990,
+                    "TP": 0,
+                    "n_pred": 510,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 71,
+                    "IoU": 0.0,
+                    "TN": 21224429,
+                    "TP": 0,
+                    "n_pred": 71,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 66,
+                    "IoU": 0.0,
+                    "TN": 21224434,
+                    "TP": 0,
+                    "n_pred": 66,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.9018743109151047,
+                    "FN": 444,
+                    "FP": 268,
+                    "IoU": 0.821285140562249,
+                    "TN": 21220516,
+                    "TP": 3272,
+                    "n_pred": 3540,
+                    "n_ref": 3716
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00158.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00158.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9419064699445132,
+                    "FN": 9857,
+                    "FP": 30860,
+                    "IoU": 0.8901920701614339,
+                    "TN": 18713102,
+                    "TP": 330085,
+                    "n_pred": 360945,
+                    "n_ref": 339942
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8562400131843879,
+                    "FN": 13209,
+                    "FP": 6854,
+                    "IoU": 0.748618611469597,
+                    "TN": 19004093,
+                    "TP": 59748,
+                    "n_pred": 66602,
+                    "n_ref": 72957
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8948306595365418,
+                    "FN": 3537,
+                    "FP": 2540,
+                    "IoU": 0.8096774193548387,
+                    "TN": 19051974,
+                    "TP": 25853,
+                    "n_pred": 28393,
+                    "n_ref": 29390
+                },
+                "4": {
+                    "Dice": 0.22330750109665157,
+                    "FN": 25572,
+                    "FP": 987,
+                    "IoU": 0.12568719755077856,
+                    "TN": 19053527,
+                    "TP": 3818,
+                    "n_pred": 4805,
+                    "n_ref": 29390
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6998,
+                    "IoU": 0.0,
+                    "TN": 19076906,
+                    "TP": 0,
+                    "n_pred": 6998,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1587,
+                    "IoU": 0.0,
+                    "TN": 19082317,
+                    "TP": 0,
+                    "n_pred": 1587,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 13566,
+                    "IoU": 0.0,
+                    "TN": 19070338,
+                    "TP": 0,
+                    "n_pred": 13566,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00161.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00161.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9510600385681713,
+                    "FN": 12178,
+                    "FP": 21220,
+                    "IoU": 0.9066868205401871,
+                    "TN": 17681927,
+                    "TP": 324515,
+                    "n_pred": 345735,
+                    "n_ref": 336693
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8783954654458251,
+                    "FN": 1917,
+                    "FP": 3661,
+                    "IoU": 0.7831596952262478,
+                    "TN": 18014116,
+                    "TP": 20146,
+                    "n_pred": 23807,
+                    "n_ref": 22063
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8778470655875459,
+                    "FN": 2214,
+                    "FP": 3310,
+                    "IoU": 0.7822882591731368,
+                    "TN": 18014467,
+                    "TP": 19849,
+                    "n_pred": 23159,
+                    "n_ref": 22063
+                },
+                "4": {
+                    "Dice": 0.09586749887814629,
+                    "FN": 20888,
+                    "FP": 1275,
+                    "IoU": 0.050347073442454364,
+                    "TN": 18016502,
+                    "TP": 1175,
+                    "n_pred": 2450,
+                    "n_ref": 22063
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1372,
+                    "IoU": 0.0,
+                    "TN": 18038468,
+                    "TP": 0,
+                    "n_pred": 1372,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 88,
+                    "IoU": 0.0,
+                    "TN": 18039752,
+                    "TP": 0,
+                    "n_pred": 88,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 18707,
+                    "IoU": 0.0,
+                    "TN": 18021133,
+                    "TP": 0,
+                    "n_pred": 18707,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00169.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00169.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9474085178895303,
+                    "FN": 7873,
+                    "FP": 28576,
+                    "IoU": 0.9000723775476074,
+                    "TN": 16921390,
+                    "TP": 328305,
+                    "n_pred": 356881,
+                    "n_ref": 336178
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8414544971082896,
+                    "FN": 871,
+                    "FP": 1514,
+                    "IoU": 0.7263025017213679,
+                    "TN": 17277430,
+                    "TP": 6329,
+                    "n_pred": 7843,
+                    "n_ref": 7200
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8730505962881941,
+                    "FN": 560,
+                    "FP": 1239,
+                    "IoU": 0.7747025673137132,
+                    "TN": 17278159,
+                    "TP": 6186,
+                    "n_pred": 7425,
+                    "n_ref": 6746
+                },
+                "4": {
+                    "Dice": 0.0713320724128614,
+                    "FN": 6482,
+                    "FP": 392,
+                    "IoU": 0.036985149901933315,
+                    "TN": 17279006,
+                    "TP": 264,
+                    "n_pred": 656,
+                    "n_ref": 6746
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 95,
+                    "IoU": 0.0,
+                    "TN": 17286049,
+                    "TP": 0,
+                    "n_pred": 95,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 32,
+                    "IoU": 0.0,
+                    "TN": 17286112,
+                    "TP": 0,
+                    "n_pred": 32,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6416,
+                    "IoU": 0.0,
+                    "TN": 17279728,
+                    "TP": 0,
+                    "n_pred": 6416,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00173.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00173.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9592732080448508,
+                    "FN": 16172,
+                    "FP": 33669,
+                    "IoU": 0.9217339415685875,
+                    "TN": 19410009,
+                    "TP": 586974,
+                    "n_pred": 620643,
+                    "n_ref": 603146
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9251989687451254,
+                    "FN": 20332,
+                    "FP": 22347,
+                    "IoU": 0.8608095283132707,
+                    "TN": 19740201,
+                    "TP": 263944,
+                    "n_pred": 286291,
+                    "n_ref": 284276
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9399015486328195,
+                    "FN": 14959,
+                    "FP": 18493,
+                    "IoU": 0.886617226372375,
+                    "TN": 19751788,
+                    "TP": 261584,
+                    "n_pred": 280077,
+                    "n_ref": 276543
+                },
+                "4": {
+                    "Dice": 0.4423095684599625,
+                    "FN": 194936,
+                    "FP": 10854,
+                    "IoU": 0.2839521637317021,
+                    "TN": 19759427,
+                    "TP": 81607,
+                    "n_pred": 92461,
+                    "n_ref": 276543
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 179551,
+                    "IoU": 0.0,
+                    "TN": 19867273,
+                    "TP": 0,
+                    "n_pred": 179551,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 20046823,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 564,
+                    "IoU": 0.0,
+                    "TN": 20046260,
+                    "TP": 0,
+                    "n_pred": 564,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00178.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00178.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.948975336044612,
+                    "FN": 15073,
+                    "FP": 35087,
+                    "IoU": 0.9029049161161192,
+                    "TN": 20991489,
+                    "TP": 466447,
+                    "n_pred": 501534,
+                    "n_ref": 481520
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9255701704357849,
+                    "FN": 10614,
+                    "FP": 14182,
+                    "IoU": 0.8614524140782585,
+                    "TN": 21329125,
+                    "TP": 154175,
+                    "n_pred": 168357,
+                    "n_ref": 164789
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9252711345478213,
+                    "FN": 7144,
+                    "FP": 15360,
+                    "IoU": 0.8609344777936387,
+                    "TN": 21346273,
+                    "TP": 139319,
+                    "n_pred": 154679,
+                    "n_ref": 146463
+                },
+                "4": {
+                    "Dice": 0.819011937445963,
+                    "FN": 38473,
+                    "FP": 9255,
+                    "IoU": 0.693497219332383,
+                    "TN": 21352378,
+                    "TP": 107990,
+                    "n_pred": 117245,
+                    "n_ref": 146463
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30852,
+                    "IoU": 0.0,
+                    "TN": 21477244,
+                    "TP": 0,
+                    "n_pred": 30852,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3,
+                    "IoU": 0.0,
+                    "TN": 21508093,
+                    "TP": 0,
+                    "n_pred": 3,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3452,
+                    "IoU": 0.0,
+                    "TN": 21504644,
+                    "TP": 0,
+                    "n_pred": 3452,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00179.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00179.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9507938845526592,
+                    "FN": 28474,
+                    "FP": 16633,
+                    "IoU": 0.9062031478412397,
+                    "TN": 19235411,
+                    "TP": 435794,
+                    "n_pred": 452427,
+                    "n_ref": 464268
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7842122594909912,
+                    "FN": 3578,
+                    "FP": 1009,
+                    "IoU": 0.6450239900944126,
+                    "TN": 19703390,
+                    "TP": 8335,
+                    "n_pred": 9344,
+                    "n_ref": 11913
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.5527968539062041,
+                    "FN": 3513,
+                    "FP": 4106,
+                    "IoU": 0.38197598961713175,
+                    "TN": 19703984,
+                    "TP": 4709,
+                    "n_pred": 8815,
+                    "n_ref": 8222
+                },
+                "4": {
+                    "Dice": 0.14405656208572692,
+                    "FN": 7570,
+                    "FP": 178,
+                    "IoU": 0.07761904761904762,
+                    "TN": 19707912,
+                    "TP": 652,
+                    "n_pred": 830,
+                    "n_ref": 8222
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 111,
+                    "IoU": 0.0,
+                    "TN": 19716201,
+                    "TP": 0,
+                    "n_pred": 111,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 95,
+                    "IoU": 0.0,
+                    "TN": 19716217,
+                    "TP": 0,
+                    "n_pred": 95,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 7527,
+                    "IoU": 0.0,
+                    "TN": 19708785,
+                    "TP": 0,
+                    "n_pred": 7527,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00182.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00182.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9166367475338086,
+                    "FN": 11769,
+                    "FP": 17487,
+                    "IoU": 0.8461028611106728,
+                    "TN": 14720847,
+                    "TP": 160845,
+                    "n_pred": 178332,
+                    "n_ref": 172614
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8155788724879958,
+                    "FN": 850,
+                    "FP": 187,
+                    "IoU": 0.6885885885885886,
+                    "TN": 14907618,
+                    "TP": 2293,
+                    "n_pred": 2480,
+                    "n_ref": 3143
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9019133937562941,
+                    "FN": 337,
+                    "FP": 150,
+                    "IoU": 0.8213499633162142,
+                    "TN": 14908222,
+                    "TP": 2239,
+                    "n_pred": 2389,
+                    "n_ref": 2576
+                },
+                "4": {
+                    "Dice": 0.08597449908925318,
+                    "FN": 2458,
+                    "FP": 51,
+                    "IoU": 0.044918157594213935,
+                    "TN": 14908321,
+                    "TP": 118,
+                    "n_pred": 169,
+                    "n_ref": 2576
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3,
+                    "IoU": 0.0,
+                    "TN": 14910945,
+                    "TP": 0,
+                    "n_pred": 3,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 13,
+                    "IoU": 0.0,
+                    "TN": 14910935,
+                    "TP": 0,
+                    "n_pred": 13,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2147,
+                    "IoU": 0.0,
+                    "TN": 14908801,
+                    "TP": 0,
+                    "n_pred": 2147,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00203.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00203.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9543634366815916,
+                    "FN": 10094,
+                    "FP": 27720,
+                    "IoU": 0.9127104676340367,
+                    "TN": 17526766,
+                    "TP": 395388,
+                    "n_pred": 423108,
+                    "n_ref": 405482
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8227932960893855,
+                    "FN": 193,
+                    "FP": 600,
+                    "IoU": 0.6989369779802581,
+                    "TN": 17957334,
+                    "TP": 1841,
+                    "n_pred": 2441,
+                    "n_ref": 2034
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8325559701492538,
+                    "FN": 249,
+                    "FP": 469,
+                    "IoU": 0.7131442269276868,
+                    "TN": 17957465,
+                    "TP": 1785,
+                    "n_pred": 2254,
+                    "n_ref": 2034
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 179,
+                    "IoU": 0.0,
+                    "TN": 17959789,
+                    "TP": 0,
+                    "n_pred": 179,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3,
+                    "IoU": 0.0,
+                    "TN": 17959965,
+                    "TP": 0,
+                    "n_pred": 3,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 12,
+                    "IoU": 0.0,
+                    "TN": 17959956,
+                    "TP": 0,
+                    "n_pred": 12,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.8287210172026926,
+                    "FN": 372,
+                    "FP": 315,
+                    "IoU": 0.7075351213282248,
+                    "TN": 17957619,
+                    "TP": 1662,
+                    "n_pred": 1977,
+                    "n_ref": 2034
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00209.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00209.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9759904986225545,
+                    "FN": 9359,
+                    "FP": 3862,
+                    "IoU": 0.9531068777288705,
+                    "TN": 10818913,
+                    "TP": 268718,
+                    "n_pred": 272580,
+                    "n_ref": 278077
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.876020209871745,
+                    "FN": 357,
+                    "FP": 281,
+                    "IoU": 0.7793914246196404,
+                    "TN": 11097960,
+                    "TP": 2254,
+                    "n_pred": 2535,
+                    "n_ref": 2611
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9172498970769865,
+                    "FN": 166,
+                    "FP": 236,
+                    "IoU": 0.847148288973384,
+                    "TN": 11098222,
+                    "TP": 2228,
+                    "n_pred": 2464,
+                    "n_ref": 2394
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 215,
+                    "IoU": 0.0,
+                    "TN": 11100637,
+                    "TP": 0,
+                    "n_pred": 215,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.005818786367414797,
+                    "FN": 2387,
+                    "FP": 5,
+                    "IoU": 0.0029178824510212586,
+                    "TN": 11098453,
+                    "TP": 7,
+                    "n_pred": 12,
+                    "n_ref": 2394
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 36,
+                    "IoU": 0.0,
+                    "TN": 11100816,
+                    "TP": 0,
+                    "n_pred": 36,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2137,
+                    "IoU": 0.0,
+                    "TN": 11098715,
+                    "TP": 0,
+                    "n_pred": 2137,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00213.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00213.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9560093371278738,
+                    "FN": 14424,
+                    "FP": 19969,
+                    "IoU": 0.9157259457644894,
+                    "TN": 21001811,
+                    "TP": 373716,
+                    "n_pred": 393685,
+                    "n_ref": 388140
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9003902136884484,
+                    "FN": 5212,
+                    "FP": 2829,
+                    "IoU": 0.818827028366717,
+                    "TN": 21365537,
+                    "TP": 36342,
+                    "n_pred": 39171,
+                    "n_ref": 41554
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8982005417147148,
+                    "FN": 4380,
+                    "FP": 3212,
+                    "IoU": 0.8152123646099549,
+                    "TN": 21368835,
+                    "TP": 33493,
+                    "n_pred": 36705,
+                    "n_ref": 37873
+                },
+                "4": {
+                    "Dice": 0.10592912202453096,
+                    "FN": 35688,
+                    "FP": 1196,
+                    "IoU": 0.05592669379815199,
+                    "TN": 21370851,
+                    "TP": 2185,
+                    "n_pred": 3381,
+                    "n_ref": 37873
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4915,
+                    "IoU": 0.0,
+                    "TN": 21405005,
+                    "TP": 0,
+                    "n_pred": 4915,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 112,
+                    "IoU": 0.0,
+                    "TN": 21409808,
+                    "TP": 0,
+                    "n_pred": 112,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 27563,
+                    "IoU": 0.0,
+                    "TN": 21382357,
+                    "TP": 0,
+                    "n_pred": 27563,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00217.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00217.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8777494951194884,
+                    "FN": 13159,
+                    "FP": 103067,
+                    "IoU": 0.7821333038410566,
+                    "TN": 18625583,
+                    "TP": 417247,
+                    "n_pred": 520314,
+                    "n_ref": 430406
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.2879304625904726,
+                    "FN": 1735,
+                    "FP": 81988,
+                    "IoU": 0.16817685047193243,
+                    "TN": 19058406,
+                    "TP": 16927,
+                    "n_pred": 98915,
+                    "n_ref": 18662
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.3699092775312893,
+                    "FN": 973,
+                    "FP": 56117,
+                    "IoU": 0.2269255768605785,
+                    "TN": 19085208,
+                    "TP": 16758,
+                    "n_pred": 72875,
+                    "n_ref": 17731
+                },
+                "4": {
+                    "Dice": 0.046205301841605415,
+                    "FN": 16612,
+                    "FP": 29586,
+                    "IoU": 0.02364900564279223,
+                    "TN": 19111739,
+                    "TP": 1119,
+                    "n_pred": 30705,
+                    "n_ref": 17731
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 7581,
+                    "IoU": 0.0,
+                    "TN": 19151475,
+                    "TP": 0,
+                    "n_pred": 7581,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 216,
+                    "IoU": 0.0,
+                    "TN": 19158840,
+                    "TP": 0,
+                    "n_pred": 216,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 15024,
+                    "IoU": 0.0,
+                    "TN": 19144032,
+                    "TP": 0,
+                    "n_pred": 15024,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00218.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00218.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9646089843355643,
+                    "FN": 16478,
+                    "FP": 44169,
+                    "IoU": 0.931637390842677,
+                    "TN": 23939444,
+                    "TP": 826490,
+                    "n_pred": 870659,
+                    "n_ref": 842968
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9618677195425375,
+                    "FN": 7414,
+                    "FP": 35361,
+                    "IoU": 0.9265367599576825,
+                    "TN": 24244317,
+                    "TP": 539489,
+                    "n_pred": 574850,
+                    "n_ref": 546903
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9632700232933166,
+                    "FN": 9302,
+                    "FP": 31696,
+                    "IoU": 0.9291426359188315,
+                    "TN": 24247982,
+                    "TP": 537601,
+                    "n_pred": 569297,
+                    "n_ref": 546903
+                },
+                "4": {
+                    "Dice": 0.8383875224906253,
+                    "FN": 134291,
+                    "FP": 24784,
+                    "IoU": 0.7217445910087164,
+                    "TN": 24254894,
+                    "TP": 412612,
+                    "n_pred": 437396,
+                    "n_ref": 546903
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 122807,
+                    "IoU": 0.0,
+                    "TN": 24703774,
+                    "TP": 0,
+                    "n_pred": 122807,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 24826581,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 370,
+                    "IoU": 0.0,
+                    "TN": 24826211,
+                    "TP": 0,
+                    "n_pred": 370,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00221.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00221.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8899529249280861,
+                    "FN": 16664,
+                    "FP": 248033,
+                    "IoU": 0.8017253906735721,
+                    "TN": 27585373,
+                    "TP": 1070305,
+                    "n_pred": 1318338,
+                    "n_ref": 1086969
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9205412179075411,
+                    "FN": 4886,
+                    "FP": 123389,
+                    "IoU": 0.8527803313834116,
+                    "TN": 28049058,
+                    "TP": 743042,
+                    "n_pred": 866431,
+                    "n_ref": 747928
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.92393025161964,
+                    "FN": 7336,
+                    "FP": 114614,
+                    "IoU": 0.8586155804586907,
+                    "TN": 28057833,
+                    "TP": 740592,
+                    "n_pred": 855206,
+                    "n_ref": 747928
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 530310,
+                    "IoU": 0.0,
+                    "TN": 28390065,
+                    "TP": 0,
+                    "n_pred": 530310,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 306628,
+                    "IoU": 0.0,
+                    "TN": 28613747,
+                    "TP": 0,
+                    "n_pred": 306628,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 28920375,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 747928,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 28172447,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 747928
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00223.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00223.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9509336243190202,
+                    "FN": 14498,
+                    "FP": 15629,
+                    "IoU": 0.9064570615960704,
+                    "TN": 14883740,
+                    "TP": 291939,
+                    "n_pred": 307568,
+                    "n_ref": 306437
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9421719241651022,
+                    "FN": 2412,
+                    "FP": 4149,
+                    "IoU": 0.890666400039994,
+                    "TN": 15145797,
+                    "TP": 53448,
+                    "n_pred": 57597,
+                    "n_ref": 55860
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9432725855870215,
+                    "FN": 2600,
+                    "FP": 3806,
+                    "IoU": 0.8926356719069487,
+                    "TN": 15146140,
+                    "TP": 53260,
+                    "n_pred": 57066,
+                    "n_ref": 55860
+                },
+                "4": {
+                    "Dice": 0.1279696222251071,
+                    "FN": 51917,
+                    "FP": 1821,
+                    "IoU": 0.0683587316447357,
+                    "TN": 15148125,
+                    "TP": 3943,
+                    "n_pred": 5764,
+                    "n_ref": 55860
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 40617,
+                    "IoU": 0.0,
+                    "TN": 15165189,
+                    "TP": 0,
+                    "n_pred": 40617,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 164,
+                    "IoU": 0.0,
+                    "TN": 15205642,
+                    "TP": 0,
+                    "n_pred": 164,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 9630,
+                    "IoU": 0.0,
+                    "TN": 15196176,
+                    "TP": 0,
+                    "n_pred": 9630,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00230.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00230.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9677346661760641,
+                    "FN": 19692,
+                    "FP": 16962,
+                    "IoU": 0.9374863559460787,
+                    "TN": 21810731,
+                    "TP": 549682,
+                    "n_pred": 566644,
+                    "n_ref": 569374
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8848201228429365,
+                    "FN": 3177,
+                    "FP": 2730,
+                    "IoU": 0.7934326479227864,
+                    "TN": 22368471,
+                    "TP": 22689,
+                    "n_pred": 25419,
+                    "n_ref": 25866
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9079144255267522,
+                    "FN": 1981,
+                    "FP": 2573,
+                    "IoU": 0.8313583172863279,
+                    "TN": 22370063,
+                    "TP": 22450,
+                    "n_pred": 25023,
+                    "n_ref": 24431
+                },
+                "4": {
+                    "Dice": 0.12774306060165674,
+                    "FN": 22673,
+                    "FP": 1335,
+                    "IoU": 0.06822944966234573,
+                    "TN": 22371301,
+                    "TP": 1758,
+                    "n_pred": 3093,
+                    "n_ref": 24431
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1907,
+                    "IoU": 0.0,
+                    "TN": 22395160,
+                    "TP": 0,
+                    "n_pred": 1907,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 525,
+                    "IoU": 0.0,
+                    "TN": 22396542,
+                    "TP": 0,
+                    "n_pred": 525,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 19056,
+                    "IoU": 0.0,
+                    "TN": 22378011,
+                    "TP": 0,
+                    "n_pred": 19056,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00235.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00235.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9535813746767093,
+                    "FN": 10803,
+                    "FP": 38284,
+                    "IoU": 0.9112809649982107,
+                    "TN": 22969928,
+                    "TP": 504199,
+                    "n_pred": 542483,
+                    "n_ref": 515002
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8599033816425121,
+                    "FN": 524,
+                    "FP": 4203,
+                    "IoU": 0.7542372881355932,
+                    "TN": 23503980,
+                    "TP": 14507,
+                    "n_pred": 18710,
+                    "n_ref": 15031
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9132197377589155,
+                    "FN": 614,
+                    "FP": 2126,
+                    "IoU": 0.8402984204697791,
+                    "TN": 23506057,
+                    "TP": 14417,
+                    "n_pred": 16543,
+                    "n_ref": 15031
+                },
+                "4": {
+                    "Dice": 0.08185032057043562,
+                    "FN": 14348,
+                    "FP": 975,
+                    "IoU": 0.04267149818817943,
+                    "TN": 23507208,
+                    "TP": 683,
+                    "n_pred": 1658,
+                    "n_ref": 15031
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 691,
+                    "IoU": 0.0,
+                    "TN": 23522523,
+                    "TP": 0,
+                    "n_pred": 691,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 189,
+                    "IoU": 0.0,
+                    "TN": 23523025,
+                    "TP": 0,
+                    "n_pred": 189,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 13662,
+                    "IoU": 0.0,
+                    "TN": 23509552,
+                    "TP": 0,
+                    "n_pred": 13662,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00239.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00239.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9721017264973111,
+                    "FN": 10395,
+                    "FP": 7362,
+                    "IoU": 0.9457178317702156,
+                    "TN": 15308756,
+                    "TP": 309367,
+                    "n_pred": 316729,
+                    "n_ref": 319762
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8965108468012802,
+                    "FN": 2125,
+                    "FP": 494,
+                    "IoU": 0.8124328582682805,
+                    "TN": 15621917,
+                    "TP": 11344,
+                    "n_pred": 11838,
+                    "n_ref": 13469
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8990663232453316,
+                    "FN": 2299,
+                    "FP": 209,
+                    "IoU": 0.8166398596286006,
+                    "TN": 15622202,
+                    "TP": 11170,
+                    "n_pred": 11379,
+                    "n_ref": 13469
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 996,
+                    "IoU": 0.0,
+                    "TN": 15634884,
+                    "TP": 0,
+                    "n_pred": 996,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.04663287472845764,
+                    "FN": 13147,
+                    "FP": 19,
+                    "IoU": 0.023873072360616844,
+                    "TN": 15622392,
+                    "TP": 322,
+                    "n_pred": 341,
+                    "n_ref": 13469
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 115,
+                    "IoU": 0.0,
+                    "TN": 15635765,
+                    "TP": 0,
+                    "n_pred": 115,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 9625,
+                    "IoU": 0.0,
+                    "TN": 15626255,
+                    "TP": 0,
+                    "n_pred": 9625,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00240.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00240.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9488379375130471,
+                    "FN": 13254,
+                    "FP": 45566,
+                    "IoU": 0.9026561853537443,
+                    "TN": 17444125,
+                    "TP": 545430,
+                    "n_pred": 590996,
+                    "n_ref": 558684
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9376832548075951,
+                    "FN": 4956,
+                    "FP": 19698,
+                    "IoU": 0.8826776562180271,
+                    "TN": 17838236,
+                    "TP": 185485,
+                    "n_pred": 205183,
+                    "n_ref": 190441
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9294792171791169,
+                    "FN": 6821,
+                    "FP": 20374,
+                    "IoU": 0.8682495773037551,
+                    "TN": 17841962,
+                    "TP": 179218,
+                    "n_pred": 199592,
+                    "n_ref": 186039
+                },
+                "4": {
+                    "Dice": 0.4883781161453924,
+                    "FN": 122869,
+                    "FP": 9484,
+                    "IoU": 0.32308219493358836,
+                    "TN": 17852852,
+                    "TP": 63170,
+                    "n_pred": 72654,
+                    "n_ref": 186039
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 116630,
+                    "IoU": 0.0,
+                    "TN": 17931745,
+                    "TP": 0,
+                    "n_pred": 116630,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 18048374,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6146,
+                    "IoU": 0.0,
+                    "TN": 18042229,
+                    "TP": 0,
+                    "n_pred": 6146,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00252.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00252.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9308749518083588,
+                    "FN": 4954,
+                    "FP": 34850,
+                    "IoU": 0.8706885629355294,
+                    "TN": 9886905,
+                    "TP": 268011,
+                    "n_pred": 302861,
+                    "n_ref": 272965
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8699921786738507,
+                    "FN": 3959,
+                    "FP": 2025,
+                    "IoU": 0.7698992540183035,
+                    "TN": 10168714,
+                    "TP": 20022,
+                    "n_pred": 22047,
+                    "n_ref": 23981
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.37775647171620325,
+                    "FN": 2000,
+                    "FP": 9033,
+                    "IoU": 0.23286052009456265,
+                    "TN": 10180338,
+                    "TP": 3349,
+                    "n_pred": 12382,
+                    "n_ref": 5349
+                },
+                "4": {
+                    "Dice": 0.08702956989247312,
+                    "FN": 5090,
+                    "FP": 344,
+                    "IoU": 0.04549446688916213,
+                    "TN": 10189027,
+                    "TP": 259,
+                    "n_pred": 603,
+                    "n_ref": 5349
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 38,
+                    "IoU": 0.0,
+                    "TN": 10194682,
+                    "TP": 0,
+                    "n_pred": 38,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 30,
+                    "IoU": 0.0,
+                    "TN": 10194690,
+                    "TP": 0,
+                    "n_pred": 30,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 11225,
+                    "IoU": 0.0,
+                    "TN": 10183495,
+                    "TP": 0,
+                    "n_pred": 11225,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00257.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00257.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9632760926379373,
+                    "FN": 6340,
+                    "FP": 21286,
+                    "IoU": 0.9291539297950475,
+                    "TN": 15816581,
+                    "TP": 362318,
+                    "n_pred": 383604,
+                    "n_ref": 368658
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7809590169126497,
+                    "FN": 1103,
+                    "FP": 5813,
+                    "IoU": 0.6406339308911405,
+                    "TN": 16187280,
+                    "TP": 12329,
+                    "n_pred": 18142,
+                    "n_ref": 13432
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8304983691649424,
+                    "FN": 1592,
+                    "FP": 3241,
+                    "IoU": 0.7101301505427937,
+                    "TN": 16189852,
+                    "TP": 11840,
+                    "n_pred": 15081,
+                    "n_ref": 13432
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1235,
+                    "IoU": 0.0,
+                    "TN": 16205290,
+                    "TP": 0,
+                    "n_pred": 1235,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.03518720465285351,
+                    "FN": 13190,
+                    "FP": 81,
+                    "IoU": 0.017908680529860135,
+                    "TN": 16193012,
+                    "TP": 242,
+                    "n_pred": 323,
+                    "n_ref": 13432
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 36,
+                    "IoU": 0.0,
+                    "TN": 16206489,
+                    "TP": 0,
+                    "n_pred": 36,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 12932,
+                    "IoU": 0.0,
+                    "TN": 16193593,
+                    "TP": 0,
+                    "n_pred": 12932,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00267.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00267.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9230946524041134,
+                    "FN": 17856,
+                    "FP": 53550,
+                    "IoU": 0.8571734316900324,
+                    "TN": 20252947,
+                    "TP": 428543,
+                    "n_pred": 482093,
+                    "n_ref": 446399
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7971590411248383,
+                    "FN": 11518,
+                    "FP": 27837,
+                    "IoU": 0.662730209877707,
+                    "TN": 20636209,
+                    "TP": 77332,
+                    "n_pred": 105169,
+                    "n_ref": 88850
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8246365851609109,
+                    "FN": 10274,
+                    "FP": 16857,
+                    "IoU": 0.70160137260509,
+                    "TN": 20661974,
+                    "TP": 63791,
+                    "n_pred": 80648,
+                    "n_ref": 74065
+                },
+                "4": {
+                    "Dice": 0.1298943290754407,
+                    "FN": 68767,
+                    "FP": 2211,
+                    "IoU": 0.06945828307724579,
+                    "TN": 20676620,
+                    "TP": 5298,
+                    "n_pred": 7509,
+                    "n_ref": 74065
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 32264,
+                    "IoU": 0.0,
+                    "TN": 20720632,
+                    "TP": 0,
+                    "n_pred": 32264,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 20752896,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 35712,
+                    "IoU": 0.0,
+                    "TN": 20717184,
+                    "TP": 0,
+                    "n_pred": 35712,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00270.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00270.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9652622607517132,
+                    "FN": 11013,
+                    "FP": 12260,
+                    "IoU": 0.9328569202984265,
+                    "TN": 13916482,
+                    "TP": 323345,
+                    "n_pred": 335605,
+                    "n_ref": 334358
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.930160562493441,
+                    "FN": 8659,
+                    "FP": 1989,
+                    "IoU": 0.8694394035999804,
+                    "TN": 14181544,
+                    "TP": 70908,
+                    "n_pred": 72897,
+                    "n_ref": 79567
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9065492719268541,
+                    "FN": 9023,
+                    "FP": 4775,
+                    "IoU": 0.8290718993112334,
+                    "TN": 14182376,
+                    "TP": 66926,
+                    "n_pred": 71701,
+                    "n_ref": 75949
+                },
+                "4": {
+                    "Dice": 0.12012385410571484,
+                    "FN": 71022,
+                    "FP": 1156,
+                    "IoU": 0.06389987679138837,
+                    "TN": 14185995,
+                    "TP": 4927,
+                    "n_pred": 6083,
+                    "n_ref": 75949
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 5143,
+                    "IoU": 0.0,
+                    "TN": 14257957,
+                    "TP": 0,
+                    "n_pred": 5143,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 858,
+                    "IoU": 0.0,
+                    "TN": 14262242,
+                    "TP": 0,
+                    "n_pred": 858,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 58156,
+                    "IoU": 0.0,
+                    "TN": 14204944,
+                    "TP": 0,
+                    "n_pred": 58156,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00271.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00271.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9686100036000793,
+                    "FN": 11899,
+                    "FP": 4406,
+                    "IoU": 0.9391306944812576,
+                    "TN": 13522831,
+                    "TP": 251564,
+                    "n_pred": 255970,
+                    "n_ref": 263463
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7475778190063904,
+                    "FN": 9795,
+                    "FP": 1,
+                    "IoU": 0.5969056044769978,
+                    "TN": 13766398,
+                    "TP": 14506,
+                    "n_pred": 14507,
+                    "n_ref": 24301
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.7405771878328181,
+                    "FN": 9986,
+                    "FP": 1,
+                    "IoU": 0.5880290405082089,
+                    "TN": 13766458,
+                    "TP": 14255,
+                    "n_pred": 14256,
+                    "n_ref": 24241
+                },
+                "4": {
+                    "Dice": 0.12810316204007569,
+                    "FN": 22582,
+                    "FP": 1,
+                    "IoU": 0.0684349476115832,
+                    "TN": 13766458,
+                    "TP": 1659,
+                    "n_pred": 1660,
+                    "n_ref": 24241
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 665,
+                    "IoU": 0.0,
+                    "TN": 13790035,
+                    "TP": 0,
+                    "n_pred": 665,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 247,
+                    "IoU": 0.0,
+                    "TN": 13790453,
+                    "TP": 0,
+                    "n_pred": 247,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 11302,
+                    "IoU": 0.0,
+                    "TN": 13779398,
+                    "TP": 0,
+                    "n_pred": 11302,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00273.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00273.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9533101494075219,
+                    "FN": 25259,
+                    "FP": 32741,
+                    "IoU": 0.9107857011013352,
+                    "TN": 23194420,
+                    "TP": 592120,
+                    "n_pred": 624861,
+                    "n_ref": 617379
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.8928192542158182,
+                    "FN": 20242,
+                    "FP": 6834,
+                    "IoU": 0.8063897946341743,
+                    "TN": 23704692,
+                    "TP": 112772,
+                    "n_pred": 119606,
+                    "n_ref": 133014
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9431717033797973,
+                    "FN": 6523,
+                    "FP": 6629,
+                    "IoU": 0.8924550056013018,
+                    "TN": 23722247,
+                    "TP": 109141,
+                    "n_pred": 115770,
+                    "n_ref": 115664
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 12658,
+                    "IoU": 0.0,
+                    "TN": 23831882,
+                    "TP": 0,
+                    "n_pred": 12658,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 99162,
+                    "IoU": 0.0,
+                    "TN": 23745378,
+                    "TP": 0,
+                    "n_pred": 99162,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 115664,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 23728876,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 115664
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1837,
+                    "IoU": 0.0,
+                    "TN": 23842703,
+                    "TP": 0,
+                    "n_pred": 1837,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00275.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00275.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9572619197842279,
+                    "FN": 17228,
+                    "FP": 32559,
+                    "IoU": 0.9180271996838778,
+                    "TN": 18599530,
+                    "TP": 557573,
+                    "n_pred": 590132,
+                    "n_ref": 574801
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9367073482973457,
+                    "FN": 15469,
+                    "FP": 14195,
+                    "IoU": 0.8809497054243655,
+                    "TN": 18957718,
+                    "TP": 219508,
+                    "n_pred": 233703,
+                    "n_ref": 234977
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.9361779582257284,
+                    "FN": 15967,
+                    "FP": 13837,
+                    "IoU": 0.880013687876165,
+                    "TN": 18958495,
+                    "TP": 218591,
+                    "n_pred": 232428,
+                    "n_ref": 234558
+                },
+                "4": {
+                    "Dice": 0.4435361744048511,
+                    "FN": 164998,
+                    "FP": 9543,
+                    "IoU": 0.2849640107988087,
+                    "TN": 18962789,
+                    "TP": 69560,
+                    "n_pred": 79103,
+                    "n_ref": 234558
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 141824,
+                    "IoU": 0.0,
+                    "TN": 19065066,
+                    "TP": 0,
+                    "n_pred": 141824,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6,
+                    "IoU": 0.0,
+                    "TN": 19206884,
+                    "TP": 0,
+                    "n_pred": 6,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6380,
+                    "IoU": 0.0,
+                    "TN": 19200510,
+                    "TP": 0,
+                    "n_pred": 6380,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00278.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00278.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9636999749474187,
+                    "FN": 12477,
+                    "FP": 12445,
+                    "IoU": 0.9299430200231068,
+                    "TN": 17070501,
+                    "TP": 330817,
+                    "n_pred": 343262,
+                    "n_ref": 343294
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7761075949367089,
+                    "FN": 1712,
+                    "FP": 3948,
+                    "IoU": 0.6341305753070459,
+                    "TN": 17410770,
+                    "TP": 9810,
+                    "n_pred": 13758,
+                    "n_ref": 11522
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8849402316887433,
+                    "FN": 1700,
+                    "FP": 793,
+                    "IoU": 0.7936258278145696,
+                    "TN": 17414160,
+                    "TP": 9587,
+                    "n_pred": 10380,
+                    "n_ref": 11287
+                },
+                "4": {
+                    "Dice": 0.14449213161659513,
+                    "FN": 10378,
+                    "FP": 386,
+                    "IoU": 0.07787201233616037,
+                    "TN": 17414567,
+                    "TP": 909,
+                    "n_pred": 1295,
+                    "n_ref": 11287
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 315,
+                    "IoU": 0.0,
+                    "TN": 17425925,
+                    "TP": 0,
+                    "n_pred": 315,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 154,
+                    "IoU": 0.0,
+                    "TN": 17426086,
+                    "TP": 0,
+                    "n_pred": 154,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 8344,
+                    "IoU": 0.0,
+                    "TN": 17417896,
+                    "TP": 0,
+                    "n_pred": 8344,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00290.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00290.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9797010804490837,
+                    "FN": 7613,
+                    "FP": 9679,
+                    "IoU": 0.9602098577937319,
+                    "TN": 10439283,
+                    "TP": 417288,
+                    "n_pred": 426967,
+                    "n_ref": 424901
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9153289352499335,
+                    "FN": 4766,
+                    "FP": 20056,
+                    "IoU": 0.8438769733945531,
+                    "TN": 10714873,
+                    "TP": 134168,
+                    "n_pred": 154224,
+                    "n_ref": 138934
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.914315810034042,
+                    "FN": 7865,
+                    "FP": 16701,
+                    "IoU": 0.8421563273042696,
+                    "TN": 10718228,
+                    "TP": 131069,
+                    "n_pred": 147770,
+                    "n_ref": 138934
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 10290,
+                    "IoU": 0.0,
+                    "TN": 10863573,
+                    "TP": 0,
+                    "n_pred": 10290,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.1493813359079245,
+                    "FN": 127175,
+                    "FP": 6743,
+                    "IoU": 0.08071967434804396,
+                    "TN": 10728186,
+                    "TP": 11759,
+                    "n_pred": 18502,
+                    "n_ref": 138934
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 60,
+                    "IoU": 0.0,
+                    "TN": 10873803,
+                    "TP": 0,
+                    "n_pred": 60,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 115209,
+                    "IoU": 0.0,
+                    "TN": 10758654,
+                    "TP": 0,
+                    "n_pred": 115209,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00293.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00293.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9416343202790015,
+                    "FN": 18245,
+                    "FP": 10490,
+                    "IoU": 0.8897060234674569,
+                    "TN": 12826903,
+                    "TP": 231796,
+                    "n_pred": 242286,
+                    "n_ref": 250041
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7326988820105331,
+                    "FN": 5484,
+                    "FP": 302,
+                    "IoU": 0.5781568970545349,
+                    "TN": 13073718,
+                    "TP": 7930,
+                    "n_pred": 8232,
+                    "n_ref": 13414
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.6708450629415201,
+                    "FN": 6056,
+                    "FP": 141,
+                    "IoU": 0.50471547314578,
+                    "TN": 13074922,
+                    "TP": 6315,
+                    "n_pred": 6456,
+                    "n_ref": 12371
+                },
+                "4": {
+                    "Dice": 0.08455910666153253,
+                    "FN": 11822,
+                    "FP": 65,
+                    "IoU": 0.044146027661627535,
+                    "TN": 13074998,
+                    "TP": 549,
+                    "n_pred": 614,
+                    "n_ref": 12371
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 25,
+                    "IoU": 0.0,
+                    "TN": 13087409,
+                    "TP": 0,
+                    "n_pred": 25,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 13087434,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 5394,
+                    "IoU": 0.0,
+                    "TN": 13082040,
+                    "TP": 0,
+                    "n_pred": 5394,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00296.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00296.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.9696833246330957,
+                    "FN": 7975,
+                    "FP": 7241,
+                    "IoU": 0.9411507624952139,
+                    "TN": 13676236,
+                    "TP": 243343,
+                    "n_pred": 250584,
+                    "n_ref": 251318
+                },
+                "(2, 3, 4, 5, 6, 7)": {
+                    "Dice": 0.7861208004406095,
+                    "FN": 322,
+                    "FP": 843,
+                    "IoU": 0.647610405323654,
+                    "TN": 13931489,
+                    "TP": 2141,
+                    "n_pred": 2984,
+                    "n_ref": 2463
+                },
+                "(2, 4, 5, 6, 7)": {
+                    "Dice": 0.8281343135306974,
+                    "FN": 269,
+                    "FP": 596,
+                    "IoU": 0.7066802305866395,
+                    "TN": 13931846,
+                    "TP": 2084,
+                    "n_pred": 2680,
+                    "n_ref": 2353
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 172,
+                    "IoU": 0.0,
+                    "TN": 13934623,
+                    "TP": 0,
+                    "n_pred": 172,
+                    "n_ref": 0
+                },
+                "5": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 13934794,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 0
+                },
+                "6": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 17,
+                    "IoU": 0.0,
+                    "TN": 13934778,
+                    "TP": 0,
+                    "n_pred": 17,
+                    "n_ref": 0
+                },
+                "7": {
+                    "Dice": 0.8029319371727749,
+                    "FN": 436,
+                    "FP": 505,
+                    "IoU": 0.6707487753673897,
+                    "TN": 13931937,
+                    "TP": 1917,
+                    "n_pred": 2422,
+                    "n_ref": 2353
+                }
+            },
+            "prediction_file": "/content/z_PROJECT_kits23/nnUNet_results/Dataset081_KiTS2023_selected_histology_preprocessed_2/nnUNetTrainer_100epochs__nnUNetPlans__3d_lowres/fold_0/validation/case_00299.nii.gz",
+            "reference_file": "/content/z_PROJECT_kits23/nnUNet_preprocessed/Dataset081_KiTS2023_selected_histology_preprocessed_2/gt_segmentations/case_00299.nii.gz"
+        }
+    ]
+}
