@@ -1,3 +1,6 @@
 [submodule "nnUNet"]
 	path = nnUNet
 	url = https://github.com/anhtuduong/nnUNet.git
+[submodule "kits23"]
+	path = kits23
+	url = https://github.com/neheller/kits23.git
